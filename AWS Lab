@@ -28,11 +28,10 @@
 - Create a Bastion instance
 	- 	- Select Amazon Linux AMI
 		- Instance settings
-			- In network, choose the new created VPC
-			- Choose the private subnet
-			- Assign IAM role XXXX - do we create one for them before the training ?
-			- Network interface
-				- Select
+			- Use the same settings as the previous instance
+			- Network interfaces, select :
+				- private subnet for eth0
+				- public subnet for eth1
 		- Storage : Leave default settings
 		- Tag
 			- Name : IMS Lab Name
@@ -46,7 +45,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTk3OTUwNiwyMDg4MjY0ODMyLC0yOD
+eyJoaXN0b3J5IjpbMTM1NTcxMDc1MSwyMDg4MjY0ODMyLC0yOD
 g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
 MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
 cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
