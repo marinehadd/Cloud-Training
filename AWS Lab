@@ -5,12 +5,14 @@
 - Enter the VPC services and create an Elastic IP
 	- Click Allocate New address
 	- Leave default settings and click Create
--  Go to VPC tab and create Wizard and create a VPC with a private and public subnet
+-  Go back to VPC Dashboard and launch VPC Wizard
+	- Create a VPC with a private and public subnet
+	- Give a name to your VPC, i.e.
 - 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg5ODU3ODcsLTI2NjQ1NDIwNiwtMT
-I0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX0=
+eyJoaXN0b3J5IjpbMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMj
+QyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
