@@ -7,12 +7,15 @@
 	- Leave default settings and click Create
 -  Go back to VPC Dashboard and launch VPC Wizard
 	- Create a VPC with a private and public subnet
-	- Give a name to your VPC, i.e.
+	- Give a name to your VPC, i.e. lab-<name>
+	- Leave default settings
+	- 
 - 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMj
-QyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMj
+Y2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5
+MDkxMjBdfQ==
 -->
