@@ -25,13 +25,29 @@
 			- Create a new key pair
 			- Name : ims-ec2-key
 			- Download your pem key pair file and store it into your home drive
+- Create a Bastion instance
+	- 	- Select Amazon Linux AMI
+		- Instance settings
+			- In network, choose the new created VPC
+			- Choose the private subnet
+			- Assign IAM role XXXX - do we create one for them before the training ?
+			- Network interface
+				- Select
+		- Storage : Leave default settings
+		- Tag
+			- Name : IMS Lab Name
+		- Create a security Group : Allow SSH and HTTPS from 0.0.0.0/0
+		- Launch
+			- Create a new key pair
+			- Name : ims-ec2-key
+			- Download your pem key pair file and store it into your home drive
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNj
-cyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5Nzkw
-NCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLT
-E2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbMTY1MTk3OTUwNiwyMDg4MjY0ODMyLC0yOD
+g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
+MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
+cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
 -->
