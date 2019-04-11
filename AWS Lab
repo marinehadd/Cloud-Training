@@ -12,12 +12,14 @@
 	- Leave default settings
 - Go to EC2 dashboard and launch an instance
 	- Select Amazon Linux AMI
-	- Select the 
+	- In network, choose the new created VPC
+	- Enable the IP auto-assign
+	- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc4MDA0MjEsLTE4ODcxMDgzMDIsMT
-M4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2
-ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTgxMzM4MDg1MCwtMTg4NzEwODMwMiwxMz
+gzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLTcyNjY4
+MTgwNCwtMTY3NjkwOTEyMF19
 -->
