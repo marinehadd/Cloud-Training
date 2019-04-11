@@ -23,13 +23,15 @@
 		- Create a security Group : Allow SSH and HTTPS from 0.0.0.0/0
 		- Launch
 			- Create a new key pair
-			- 
+			- Name : ims-ec2-key
+			- Download your pem key pair file and store it into your home drive
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOT
-A0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIw
-NiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX
-0=
+eyJoaXN0b3J5IjpbMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNj
+cyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5Nzkw
+NCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLT
+E2NzY5MDkxMjBdfQ==
 -->
