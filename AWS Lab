@@ -10,12 +10,13 @@
 	- Give a name to your VPC, i.e. lab-<name>
 	- Select the allocated elastic IP
 	- Leave default settings
-- 
+- Go to EC2 dashboard and launch an instance
+	- Select Amazon Li
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM3NDM5NzAsLTE4ODcxMDgzMDIsMT
+eyJoaXN0b3J5IjpbLTE5Nzk2Mzk5OTcsLTE4ODcxMDgzMDIsMT
 M4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2
 ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
