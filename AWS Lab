@@ -39,14 +39,15 @@
 		- Launch
 			- Choose existing key pair ims-ec2-key
 			- Acknowledge and launch
-			- Download your pem key pair file and store it into your home drive
+- Click view instances and wait for the running state to appear
+- 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ2ODUzNTIsMjA4ODI2NDgzMiwtMj
-g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
-MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
-03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
+g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
+MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
+cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
 -->
