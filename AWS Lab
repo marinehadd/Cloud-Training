@@ -3,9 +3,11 @@
 ## Lab 1
 Step 1
 Go to [https://aws.amazon.com/login](https://aws.amazon.com/free/)
-G
+Launch the VPC Wizard and create a VPC with a private and public subnet.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA0NjQyMDksLTEyNDIyODI2NjIsLT
-cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbMTAzMTA3Mjc4MCwtMTI0MjI4MjY2MiwtNz
+I2NjgxODA0LC0xNjc2OTA5MTIwXX0=
 -->
