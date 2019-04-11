@@ -14,14 +14,17 @@
 	- Select Amazon Linux AMI
 		- Instance settings
 			- In network, choose the new created VPC
-			Choose the private subnet
-				- Assign IAM role XXXX - do we create one for them before the training ?
-				- 
+			- Choose the private subnet
+			- Assign IAM role XXXX - do we create one for them before the training ?
+			- Leave default for the rest
+		- Storage : Leave default settings
+		- Tag
+			- Name : IMS-LAB-Na
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDgxNTMxMCwtNDkwOTA0NjEyLC0xOD
-g3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4
-MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX0=
+eyJoaXN0b3J5IjpbMTA3ODA5NDIyLC00OTA5MDQ2MTIsLTE4OD
+cxMDgzMDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgy
+NjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
