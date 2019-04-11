@@ -8,14 +8,14 @@
 -  Go back to VPC Dashboard and launch VPC Wizard
 	- Create a VPC with a private and public subnet
 	- Give a name to your VPC, i.e. lab-<name>
+	- Select the allocated elastic IP
 	- Leave default settings
-	- 
 - 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMj
-Y2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5
-MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTE5MjM3NDM5NzAsLTE4ODcxMDgzMDIsMT
+M4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2
+ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
