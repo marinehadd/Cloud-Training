@@ -1,13 +1,13 @@
  - 
 
 ## Lab 1 : Create VPC and EC2 instance
-- Go to [https://aws.amazon.com/login](https://aws.amazon.com/free/)
+- Go to [https://aws.amazon.com/login](https://aws.amazon.com/free/) and choose the region
 - Launch the VPC Wizard and create a VPC with a private and public subnet
 - 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwNDY5NTY3LC0xMjQyMjgyNjYyLC03Mj
-Y2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNz
+I2NjgxODA0LC0xNjc2OTA5MTIwXX0=
 -->
