@@ -13,13 +13,13 @@
 - Go to EC2 dashboard and launch an instance
 	- Select Amazon Linux AMI
 	- In network, choose the new created VPC
-	- Enable the IP auto-assign
+	- Assign IAM role XXXX 
 	- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzM4MDg1MCwtMTg4NzEwODMwMiwxMz
-gzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLTcyNjY4
-MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbOTE5NDMyMDI4LC0xODg3MTA4MzAyLDEzOD
+M5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNzI2Njgx
+ODA0LC0xNjc2OTA5MTIwXX0=
 -->
