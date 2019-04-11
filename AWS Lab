@@ -10,17 +10,17 @@
 	- Give a name to your VPC, i.e. lab-name
 	- Select the allocated elastic IP
 	- Leave default settings
-- Go to EC2 dashboard and launch an instance
+- Go to EC2 dashboard and launch a private instance
 	- Select Amazon Linux AMI
 	- In network, choose the new created VPC
+	- c
 	- Assign IAM role XXXX - do we create one for them before the training ?
-	- Subnet - do we keep it private or public ?
 	- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDkwNDYxMiwtMTg4NzEwODMwMiwxMz
-gzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLTcyNjY4
-MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbMjA4NjM0NjYzMSwtNDkwOTA0NjEyLC0xOD
+g3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4
+MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX0=
 -->
