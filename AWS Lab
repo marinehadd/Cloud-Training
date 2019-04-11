@@ -19,8 +19,8 @@
 			- Leave default for the rest
 		- Storage : Leave default settings
 		- Tag
-			- Name : IMS Lab Name
-		- Create a security Group : Allow SSH and HTTPS from 0.0.0.0/0
+			- Name : IMS priv Name
+		- Create a security Group ims-lab-sg : Allow SSH and HTTPS from 0.0.0.0/0
 		- Launch
 			- Create a new key pair
 			- Name : ims-ec2-key
@@ -34,19 +34,19 @@
 				- public subnet for eth1
 		- Storage : Leave default settings
 		- Tag
-			- Name : IMS Lab Name
-		- Create a security Group : Allow SSH and HTTPS from 0.0.0.0/0
+			- Name : IMS Bastion
+		- Choose existing Security Group ims-lab-sg
 		- Launch
-			- Create a new key pair
-			- Name : ims-ec2-key
+			- Choose existing key pair ims-ec2-key
+			- Acknowledge and launch
 			- Download your pem key pair file and store it into your home drive
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTcxMDc1MSwyMDg4MjY0ODMyLC0yOD
-g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
-MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
-cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbLTE0NTQ2ODUzNTIsMjA4ODI2NDgzMiwtMj
+g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
+MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
+03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
