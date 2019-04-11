@@ -20,13 +20,16 @@
 		- Storage : Leave default settings
 		- Tag
 			- Name : IMS Lab Name
-		- Create a security Group
+		- Create a security Group : Allow SSH and HTTPS from 0.0.0.0/0
+		- Launch
+			- Create a new key pair
 			- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4OD
-cxMDgzMDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgy
-NjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOT
+A0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIw
+NiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX
+0=
 -->
