@@ -13,13 +13,13 @@
 - Go to EC2 dashboard and launch an instance
 	- Select Amazon Linux AMI
 	- In network, choose the new created VPC
-	- Assign IAM role XXXX 
+	- Assign IAM role XXXX - do we create one for them before the training ?
 	- 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NDMyMDI4LC0xODg3MTA4MzAyLDEzOD
-M5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNzI2Njgx
-ODA0LC0xNjc2OTA5MTIwXX0=
+eyJoaXN0b3J5IjpbLTE0MDYyMzM4MTYsLTE4ODcxMDgzMDIsMT
+M4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2
+ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
