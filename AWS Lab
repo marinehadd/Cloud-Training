@@ -11,12 +11,13 @@
 	- Select the allocated elastic IP
 	- Leave default settings
 - Go to EC2 dashboard and launch an instance
-	- Select Amazon Li
+	- Select Amazon Linux AMI
+	- Select the 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk2Mzk5OTcsLTE4ODcxMDgzMDIsMT
+eyJoaXN0b3J5IjpbLTEzMjc4MDA0MjEsLTE4ODcxMDgzMDIsMT
 M4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2
 ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
