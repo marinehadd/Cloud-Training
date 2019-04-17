@@ -7,7 +7,6 @@
 ## Setup a VPC
 
  Go to VPC services then Your VPCs and create VPC
-
 	- Click Create
 	- Enter a name i.e. VPC-YourName
 	- IPv4 CIDR : 10.0.0.0/16
@@ -55,9 +54,9 @@ Go to Subnet
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQwNTU0ODgsMjEyNTkwOTM3LC02Nj
-g1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNjcyOTU4
-LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMj
-Y2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5
-MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NT
+g3NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwt
+NDkwOTA0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2Nj
+Q1NDIwNiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5
+MTIwXX0=
 -->
