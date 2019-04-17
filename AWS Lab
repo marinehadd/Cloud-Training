@@ -2,8 +2,8 @@
 
 ## Lab 1 : Create VPC and EC2 instance
 - Go to [https://aws.amazon.com/login](https://aws.amazon.com/free/) and choose the region
-- Enter the VPC services and create an Elastic IP
-	- Click Allocate New address
+- Go to VPC services then myVPC and create a new VPC
+	- Create a new VPC
 	- Leave default settings and click Create
 -  Go back to VPC Dashboard and launch VPC Wizard
 	- Create a VPC with a private and public subnet
@@ -46,8 +46,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
-g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
-MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
-cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbMTM2ODQxODUxMSwtNjY4NTg3NjY5LDIwOD
+gyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOTA0NjEy
+LC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMT
+I0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX0=
 -->
