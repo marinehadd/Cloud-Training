@@ -1,6 +1,6 @@
  - 
 
-# Lab 1 : Create a VPC environment
+# Lab 1 : Create an environment
 
  Go to [https://aws.amazon.com/login](https://aws.amazon.com/free/) and choose the region
 
@@ -10,6 +10,8 @@
 	- Enter a name i.e. VPC-YourName
 	- IPv4 CIDR : 10.0.0.0/16
 	- Click Create
+
+Go to Subnet
 
 	- Create a VPC with a private and public subnet
 	- Give a name to your VPC, i.e. lab-name
@@ -51,7 +53,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Nzk0MzgwNSwyMTI1OTA5MzcsLTY2OD
+eyJoaXN0b3J5IjpbMTI1MzMzMzUwNiwyMTI1OTA5MzcsLTY2OD
 U4NzY2OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgs
 LTQ5MDkwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNj
 Y0NTQyMDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3Njkw
