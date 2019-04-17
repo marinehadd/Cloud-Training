@@ -25,6 +25,7 @@ Go to Subnets and Create subnet
 	- Select the second availability zone of your region (i.e. 1b)
 	- IPv4 CIDR 10.0.2.0/24
 
+
  
 
 - Go to EC2 dashboard and launch a private instance
@@ -63,7 +64,7 @@ Go to Subnets and Create subnet
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Nzk1ODUyMywtMjczMDMyNzgsMjEyNT
+eyJoaXN0b3J5IjpbMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNT
 kwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5Mjcs
 MjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mz
 k5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4
