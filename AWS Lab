@@ -11,13 +11,9 @@
 	- Enter a name i.e. VPC-YourName
 	- IPv4 CIDR : 10.0.0.0/16
 
+You now have a VPC and an associated routing table created. Your VPC will need to h
 Go to Subnet
 
-	- Create a VPC with a private and public subnet
-	- Give a name to your VPC, i.e. lab-name
-	- Select the allocated elastic IP
-
-	- Leave default settings
 - Go to EC2 dashboard and launch a private instance
 	- Select Amazon Linux AMI
 		- Instance settings
@@ -54,9 +50,9 @@ Go to Subnet
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NT
-g3NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwt
-NDkwOTA0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2Nj
-Q1NDIwNiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5
-MTIwXX0=
+eyJoaXN0b3J5IjpbMTM1MTYwNDE4NSwtMjczMDMyNzgsMjEyNT
+kwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5Mjcs
+MjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mz
+k5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4
+MDQsLTE2NzY5MDkxMjBdfQ==
 -->
