@@ -7,15 +7,17 @@
 ## Setup a VPC
 
  Go to VPC services then Your VPCs and create VPC
+
+	- Click Create
 	- Enter a name i.e. VPC-YourName
 	- IPv4 CIDR : 10.0.0.0/16
-	- Click Create
 
 Go to Subnet
 
 	- Create a VPC with a private and public subnet
 	- Give a name to your VPC, i.e. lab-name
 	- Select the allocated elastic IP
+
 	- Leave default settings
 - Go to EC2 dashboard and launch a private instance
 	- Select Amazon Linux AMI
@@ -53,9 +55,9 @@ Go to Subnet
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzMzMzUwNiwyMTI1OTA5MzcsLTY2OD
-U4NzY2OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgs
-LTQ5MDkwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNj
-Y0NTQyMDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3Njkw
-OTEyMF19
+eyJoaXN0b3J5IjpbLTIwMDQwNTU0ODgsMjEyNTkwOTM3LC02Nj
+g1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNjcyOTU4
+LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMj
+Y2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5
+MDkxMjBdfQ==
 -->
