@@ -13,7 +13,13 @@
 
 You now have a VPC and an associated routing table created. Your VPC will need to be able to host instances accessible from both private environment and the Internet.
 
+Go to Subnets and Create subnet
+- Subnet 1:
+	- Name : YourName-Pub-Sub
+	- Select your VPC
+	- 
 
+ 
 
 - Go to EC2 dashboard and launch a private instance
 	- Select Amazon Linux AMI
@@ -51,7 +57,7 @@ You now have a VPC and an associated routing table created. Your VPC will need t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDYwMDg0NzUsLTI3MzAzMjc4LDIxMj
+eyJoaXN0b3J5IjpbLTE5MzY5NTYyNDAsLTI3MzAzMjc4LDIxMj
 U5MDkzNywtNjY4NTg3NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3
 LDI0MDY3Mjk1OCwtNDkwOTA0NjEyLC0xODg3MTA4MzAyLDEzOD
 M5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNzI2Njgx
