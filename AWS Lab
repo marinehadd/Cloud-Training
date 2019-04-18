@@ -125,19 +125,21 @@ Open your browser and try to browse to the web server URL. This should fail beca
 
 Given this private instance is meant to be a web server, we will change it is security group settings and make it public.
 
-Log back into the AWS console, go to EC2 dashboard then security groups and create one with the below ports with source 0.0.0.0/0:
+Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below ports with source 0.0.0.0/0:
 - SSH (22)
 - HTTP (80)
 - Custom TCP (5000)
 
-Go to Instances and edit your pri
+Go to Instances and select the private instance:
+- rename it as a web server
+- click actions, edit security group and map the new created
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg3OTgyNzcsMTM1MzcxNDkwNCwyMT
+eyJoaXN0b3J5IjpbLTEyNjA1NDk3MjEsMTM1MzcxNDkwNCwyMT
 k0MTUwNzcsLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0
 Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMD
 g4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYx
