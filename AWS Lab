@@ -78,9 +78,14 @@ Open PuttyGen:
 Go back to the AWS console, and copy the public IP of your Bastion instance.
 Open Putty:
 - Hostname : ec2-user@publicIP
-- 
+- Expand SSH, click Auth and upload your ppk file
+- Open
+
+You are now logged into your Bastion instance.
+
+## Setup a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTc3MDU1NCwyMTk0MTUwNzcsLTU1OD
+eyJoaXN0b3J5IjpbLTE0Mjc4ODU2MiwyMTk0MTUwNzcsLTU1OD
 k1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3
 OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
 g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
