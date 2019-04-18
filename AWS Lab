@@ -119,14 +119,18 @@ You should now be logged into the private instance CLI.
 
 In the private instance CLI, run the below to install server packages:
 
-Open your browser and try to browse to the web server URL. This should fail 
+Open your browser and try to browse to the web server URL. This should fail because the server is not accessible from the Internet. In order to access the URL, we have two options:
+- open a tunnel on port 5000 from the bastion
+- make the instance public
+
+Given this private instance is meant to be a web server, we will change it is secui
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDgwMzAzMiwxMzUzNzE0OTA0LDIxOT
+eyJoaXN0b3J5IjpbLTI4MzA3NTk1MSwxMzUzNzE0OTA0LDIxOT
 QxNTA3NywtNTU4OTU2NzUyLC0xMDQzODkyODA3LDE2Mjc0ODQy
 NzUsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwOD
 gyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOTA0NjEy
