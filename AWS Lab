@@ -49,6 +49,9 @@ Associate the public subnet to the public route table:
 - Select the public subnet
 Save
 
+## Setup a bastion
+
+A bastion is a publi
 
 
 
@@ -91,7 +94,7 @@ Save
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTcwMjcyMiwtMTA0Mzg5MjgwNywxNj
+eyJoaXN0b3J5IjpbMTYwMDU0ODA3NCwtMTA0Mzg5MjgwNywxNj
 I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
 OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
 kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
