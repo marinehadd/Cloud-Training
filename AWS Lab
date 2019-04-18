@@ -94,14 +94,14 @@ Go to EC2 Dashboard, launch an instance:
 	- Auto-assign public IP : leave default
 - Leave default storage
 - Tag : Server-YourName
-- Create an existing Security Group
-	- Name : Bastion-SG-YourName
-	- Setup SSH and HTTP with source 0.0.0.0/0
+- Select the default existing Security Group
 - Review and Launch then Launch
-- Create a new key pair EC2-KP-YourName and save your pem file on your local drive
+- Select the existing key pair EC2-KP-YourName, acknowledge and launch.
+
+Follow the same step to SSH to the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTAwOTUyNTUsMjE5NDE1MDc3LC01NT
+eyJoaXN0b3J5IjpbLTE0NTAyNDE5NjUsMjE5NDE1MDc3LC01NT
 g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
 NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
 g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
