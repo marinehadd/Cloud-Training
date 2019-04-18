@@ -34,7 +34,11 @@ Go to Internet Gateways and create one YourName-IGW. Then select it, Actions, an
 Go back to your route table and notice that you have a new route 0.0.0.0/0 which is the association of your internet gateway. This means that both /24 subnets can now access the internet via this gateway.
 However, only the public subnet (subnet 1) should be able to access the Internet so we will need to make a different route table for each type of access (public and private).
 
-Create a new route tabl
+Create a route table:
+- Name : YourName-Pub-RT
+- VPC : Your VPC
+
+Edit rou
 
 
 
@@ -76,10 +80,10 @@ Create a new route tabl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUzMDA0NzksLTEwNDM4OTI4MDcsMT
-YyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2
-NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNjcyOTU4LC00OT
-A5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMjY2NDU0
-MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMj
-BdfQ==
+eyJoaXN0b3J5IjpbLTY4NjAwODI5MSwtMTA0Mzg5MjgwNywxNj
+I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
+OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
+kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
+MDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3NjkwOTEyMF
+19
 -->
