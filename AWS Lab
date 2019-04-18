@@ -51,7 +51,7 @@ Save
 
 ## Setup a bastion
 
-A bastion is a publi
+A bastion is a jump box that will allow you to connect to any private instance of your VPC from the Internet. It will act as an intermediate between the public and the private environments.
 
 
 
@@ -94,10 +94,10 @@ A bastion is a publi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDU0ODA3NCwtMTA0Mzg5MjgwNywxNj
-I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
-OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
-kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
-MDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3NjkwOTEyMF
-19
+eyJoaXN0b3J5IjpbMTQ4MzM2NDg1LC0xMDQzODkyODA3LDE2Mj
+c0ODQyNzUsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5
+LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOT
+A0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIw
+NiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX
+0=
 -->
