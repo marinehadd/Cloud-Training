@@ -66,7 +66,9 @@ Go to EC2 Dashboard, launch an instance:
 	- Name : Bastion-SG-YourName
 	- Setup SSH and HTTP with source 0.0.0.0/0
 - Review and Launch then Launch
-- Create a new key pair 
+- Create a new key pair EC2-KP-YourName and save it on your local drive
+
+
 
 Go to Instance, 
 
@@ -112,10 +114,10 @@ Go to Instance,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNj
-I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
-OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
-kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
-MDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3NjkwOTEyMF
-19
+eyJoaXN0b3J5IjpbMjE5NDE1MDc3LC01NTg5NTY3NTIsLTEwND
+M4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkwOTM3
+LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNj
+cyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5Nzkw
+NCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLT
+E2NzY5MDkxMjBdfQ==
 -->
