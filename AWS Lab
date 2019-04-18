@@ -71,12 +71,15 @@ Go to EC2 Dashboard, launch an instance:
 Download PuttyGen (and Putty if you haven't already):
 [https://puttygen.com/download.php?val=49](https://puttygen.com/download.php?val=49)  (select manual download)
 
-Open P
+Open PuttyGen:
+- Load your pem file (select "all files")
+- Save private key (no paraphrase) as a pp
+- Name your ppk file in your local drive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk4NTA0NTgsMjE5NDE1MDc3LC01NT
-g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
-NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
-g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
-MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
-03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbMTEzOTk1MDQsMjE5NDE1MDc3LC01NTg5NT
+Y3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgs
+MjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4OD
+c5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIs
+MTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03Mj
+Y2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
