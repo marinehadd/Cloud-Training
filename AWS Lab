@@ -13,7 +13,7 @@
 
 You now have a VPC and an associated routing table created. Your VPC will need to be able to host instances accessible from both private environment and the Internet.
 
-Go to Subnets and Create subnet
+Go to Subnets and Create su
 - Subnet 1:
 	- Name : YourName-Pub-Sub
 	- Select your VPC
@@ -64,9 +64,9 @@ Go to Subnets and Create subnet
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNT
-kwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5Mjcs
-MjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mz
-k5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4
-MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbMTM5ODkyMDQ2LDE2Mjc0ODQyNzUsLTI3Mz
+AzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwODgyNjQ4MzIs
+LTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOTA0NjEyLC0xODg3MT
+A4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2
+MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX0=
 -->
