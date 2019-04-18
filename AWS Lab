@@ -103,15 +103,20 @@ Follow the same step to SSH to the private instance with Putty. You should get a
 - the subnet route table has no internet gateway
 - the security group does not allow the subnet to be reachable from anywhere
 
-Therefore, you need to use the bastion (jump box) in order to login to the private instance from 
+Therefore, you need to use the bastion (jump box) in order to login to the private instance from your network.
+Open the pem file with notepad and copy the content (all of it).
+Go back to the Bastion CLI and type:
+sudo su
+nano yourname-pk.pem
+right click (that will paste the 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzExODg3MCwyMTk0MTUwNzcsLTU1OD
-k1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3
-OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
-g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
-MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
-cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbLTE3NjEzODYwMDUsMjE5NDE1MDc3LC01NT
+g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
+NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
+g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
+MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
+03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
