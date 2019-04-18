@@ -66,14 +66,14 @@ Go to EC2 Dashboard, launch an instance:
 	- Name : Bastion-SG-YourName
 	- Setup SSH and HTTP with source 0.0.0.0/0
 - Review and Launch then Launch
-- Create a new key pair EC2-KP-YourName and save your pem on your local drive
+- Create a new key pair EC2-KP-YourName and save your pem file on your local drive
 
 Download PuttyGen (and Putty if you haven't already):
 [https://puttygen.com/download.php?val=49](https://puttygen.com/download.php?val=49)  (select manual download)
 
-
+Open P
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDY4MTc4MDQsMjE5NDE1MDc3LC01NT
+eyJoaXN0b3J5IjpbLTIwNTk4NTA0NTgsMjE5NDE1MDc3LC01NT
 g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
 NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
 g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
