@@ -66,58 +66,17 @@ Go to EC2 Dashboard, launch an instance:
 	- Name : Bastion-SG-YourName
 	- Setup SSH and HTTP with source 0.0.0.0/0
 - Review and Launch then Launch
-- Create a new key pair EC2-KP-YourName and save it on your local drive
+- Create a new key pair EC2-KP-YourName and save your pem on your local drive
 
-
-
-Go to Instance, 
-
-
-
-
-
- 
-
-- Go to EC2 dashboard and launch a private instance
-	- Select Amazon Linux AMI
-		- Instance settings
-			- In network, choose the new created VPC
-			- Choose the private subnet
-			- Assign IAM role XXXX - do we create one for them before the training ?
-			- Leave default for the rest
-		- Storage : Leave default settings
-		- Tag
-			- Name : IMS priv Name
-		- Create a security Group ims-lab-sg : Allow SSH and HTTPS from 0.0.0.0/0
-		- Launch
-			- Create a new key pair
-			- Name : ims-ec2-key
-			- Download your pem key pair file and store it into your home drive
-- Create a Bastion instance
-	- 	- Select Amazon Linux AMI
-		- Instance settings
-			- Use the same settings as the previous instance
-			- Network interfaces, select :
-				- private subnet for eth0
-				- public subnet for eth1
-		- Storage : Leave default settings
-		- Tag
-			- Name : IMS Bastion
-		- Choose existing Security Group ims-lab-sg
-		- Launch
-			- Choose existing key pair ims-ec2-key
-			- Acknowledge and launch
-- Click view instances and wait for the running state to appear
-- 
-
-
+Download PuttyGen (and Putty if you haven't already):
+[https://puttygen.com/download.php?val=49](https://puttygen.com/download.php?val=49)  (select manual download)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NDE1MDc3LC01NTg5NTY3NTIsLTEwND
-M4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkwOTM3
-LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNj
-cyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5Nzkw
-NCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLT
-E2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbLTIxNDY4MTc4MDQsMjE5NDE1MDc3LC01NT
+g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
+NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
+g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
+MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
+03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
