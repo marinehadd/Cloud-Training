@@ -83,12 +83,28 @@ Open Putty:
 
 You are now logged into your Bastion instance.
 
-## Setup a 
+## Setup a private instance
+
+Go to EC2 Dashboard, launch an instance:
+- AMI XXXXX
+- Leave default Instance Type
+- Instance details:
+	- Network : your VPC
+	- Subnet : your private subnet
+	- Auto-assign public IP : leave default
+- Leave default storage
+- Tag : Server-YourName
+- Create an existing Security Group
+	- Name : Bastion-SG-YourName
+	- Setup SSH and HTTP with source 0.0.0.0/0
+- Review and Launch then Launch
+- Create a new key pair EC2-KP-YourName and save your pem file on your local drive
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc4ODU2MiwyMTk0MTUwNzcsLTU1OD
-k1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3
-OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
-g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
-MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
-cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
+eyJoaXN0b3J5IjpbLTIxMTAwOTUyNTUsMjE5NDE1MDc3LC01NT
+g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
+NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
+g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
+MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
+03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
 -->
