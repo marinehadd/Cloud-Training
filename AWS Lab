@@ -110,15 +110,19 @@ Go back to the Bastion CLI and load the private key to be able to authenticate t
 - Type *nano yourname-pk.pem*
 - Right click (that will paste the content you copied)
 - Ctrl+X then enter
-- Type ssh ec2-user@privateIP -i 
+- Type *ssh ec2-user@privateIP -i yourname-pk.pem*
 
+You should now be logged into the private instance CLI.
+
+
+# Lab 2 : Create a Web Server
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDgzMzk5NCwyMTk0MTUwNzcsLTU1OD
+eyJoaXN0b3J5IjpbMTM1MzcxNDkwNCwyMTk0MTUwNzcsLTU1OD
 k1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3
 OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
 g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
