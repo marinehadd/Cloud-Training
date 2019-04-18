@@ -26,9 +26,10 @@ Go to Subnets and create a public and a private subnets.
 	- IPv4 CIDR 10.0.2.0/24
 
 Select Subnet 1, go to Actions and modify the auto-assign IP settings to allow the subnet to obtain public IP addresses dynamically.
-
+Go to Routes Tables and notice the new 
 The public subnet is now created and needs access to the Internet which will be provided by an Internet Gateway.
-Go to Internet Gateways and create one YourName-IGW. 
+Go to Internet Gateways and create one YourName-IGW. Then select it, Actions, and attach to your VPC.
+
  
 
 - Go to EC2 dashboard and launch a private instance
@@ -67,10 +68,10 @@ Go to Internet Gateways and create one YourName-IGW.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MjMwODU5LC0xMDQzODkyODA3LDE2Mj
-c0ODQyNzUsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5
-LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOT
-A0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIw
-NiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX
-0=
+eyJoaXN0b3J5IjpbMTA1MjYwNzE1NywtMTA0Mzg5MjgwNywxNj
+I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
+OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
+kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
+MDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3NjkwOTEyMF
+19
 -->
