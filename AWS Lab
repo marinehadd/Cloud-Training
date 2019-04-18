@@ -65,7 +65,11 @@ Go to EC2 Dashboard, launch an instance:
 - Create a new Security Group
 	- Name : Bastion-SG-YourName
 	- Setup SSH and HTTP with source 0.0.0.0/0
-	- 
+- Review and Launch then Launch
+- Create a new key pair 
+
+Go to Instance, 
+
 
 
 
@@ -108,10 +112,10 @@ Go to EC2 Dashboard, launch an instance:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYzMzU0NjUsLTEwNDM4OTI4MDcsMT
-YyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2
-NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNjcyOTU4LC00OT
-A5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMjY2NDU0
-MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMj
-BdfQ==
+eyJoaXN0b3J5IjpbLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNj
+I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
+OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
+kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
+MDYsLTEyNDIyODI2NjIsLTcyNjY4MTgwNCwtMTY3NjkwOTEyMF
+19
 -->
