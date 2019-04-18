@@ -44,6 +44,11 @@ Add an Internet Gateway:
 - Target : Internet Gateway and select your IGW
 Save Routes
 
+Associate the public subnet to the public route table:
+- Edit subnet associations
+- Select the public subnet
+Save
+
 
 
 
@@ -86,7 +91,7 @@ Save Routes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjQzODk0MiwtMTA0Mzg5MjgwNywxNj
+eyJoaXN0b3J5IjpbMTgyOTcwMjcyMiwtMTA0Mzg5MjgwNywxNj
 I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
 OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
 kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
