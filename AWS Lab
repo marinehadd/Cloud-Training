@@ -25,7 +25,9 @@ Go to Subnets and create a public and a private subnets.
 	- Select the second availability zone of your region (i.e. 1b)
 	- IPv4 CIDR 10.0.2.0/24
 
-Select Subnet 1, go to Actions and modify the auto-assign IP settings to allow the subnet to obtain public IP addresses dynami
+Select Subnet 1, go to Actions and modify the auto-assign IP settings to allow the subnet to obtain public IP addresses dynamically.
+
+The public subnet is 
  
 
 - Go to EC2 dashboard and launch a private instance
@@ -64,7 +66,7 @@ Select Subnet 1, go to Actions and modify the auto-assign IP settings to allow t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE0NjAyMiwtMTA0Mzg5MjgwNywxNj
+eyJoaXN0b3J5IjpbLTQ2NzcxMzIxOCwtMTA0Mzg5MjgwNywxNj
 I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
 OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
 kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
