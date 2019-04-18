@@ -105,18 +105,20 @@ Follow the same step to SSH to the private instance with Putty. You should get a
 
 Therefore, you need to use the bastion (jump box) in order to login to the private instance from your network.
 Open the pem file with notepad and copy the content (all of it).
-Go back to the Bastion CLI and type:
-sudo su
-nano yourname-pk.pem
-right click (that will paste the 
+Go back to the Bastion CLI and load the private key to be able to a:
+- sudo su
+- nano yourname-pk.pem
+- right click (that will paste the content you copied)
+- ctrl+X then enter
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEzODYwMDUsMjE5NDE1MDc3LC01NT
-g5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMy
-NzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMj
-g4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgz
-MDIsMTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC
-03MjY2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbNDMyNjUyMjE4LDIxOTQxNTA3NywtNTU4OT
+U2NzUyLC0xMDQzODkyODA3LDE2Mjc0ODQyNzUsLTI3MzAzMjc4
+LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwODgyNjQ4MzIsLTI4OD
+g3OTI3LDI0MDY3Mjk1OCwtNDkwOTA0NjEyLC0xODg3MTA4MzAy
+LDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNz
+I2NjgxODA0LC0xNjc2OTA5MTIwXX0=
 -->
