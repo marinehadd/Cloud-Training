@@ -73,13 +73,17 @@ Download PuttyGen (and Putty if you haven't already):
 
 Open PuttyGen:
 - Load your pem file (select "all files")
-- Save private key (no paraphrase) as a pp
-- Name your ppk file in your local drive
+- Save private key (no paraphrase) as a ppk file
+
+Go back to the AWS console, and copy the public IP of your Bastion instance.
+Open Putty:
+- Hostname : ec2-user@publicIP
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTk1MDQsMjE5NDE1MDc3LC01NTg5NT
-Y3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgs
-MjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4OD
-c5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIs
-MTM4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03Mj
-Y2ODE4MDQsLTE2NzY5MDkxMjBdfQ==
+eyJoaXN0b3J5IjpbMjAxMTc3MDU1NCwyMTk0MTUwNzcsLTU1OD
+k1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3
+OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yOD
+g4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMw
+MiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLT
+cyNjY4MTgwNCwtMTY3NjkwOTEyMF19
 -->
