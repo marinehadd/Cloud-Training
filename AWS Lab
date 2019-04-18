@@ -58,7 +58,10 @@ Go to EC2 Dashboard, launch an instance:
 - Leave default Instance Type
 - Instance details:
 	- Network : your VPC
-	- Subne
+	- Subnet : your public subnet
+	- Auto-assign public IP : YES
+- Leave default storage
+- Tag : Bastion-
 
 
 
@@ -101,7 +104,7 @@ Go to EC2 Dashboard, launch an instance:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTczNzk4MiwtMTA0Mzg5MjgwNywxNj
+eyJoaXN0b3J5IjpbMTk4NTcyMzQwOCwtMTA0Mzg5MjgwNywxNj
 I3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2
 OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MD
 kwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQy
