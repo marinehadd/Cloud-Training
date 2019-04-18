@@ -32,7 +32,7 @@ The public subnet needs access to the Internet which will be provided by an Inte
 Go to Internet Gateways and create one YourName-IGW. Then select it, Actions, and attach to your VPC.
 
 Go back to your route table and notice that you have a new route 0.0.0.0/0 which is the association of your internet gateway. This means that both /24 subnets can now access the internet via this gateway.
-However, only the public subnet (subnet 1) sh
+However, only the public subnet (subnet 1) should be able to access the Internet.
 
  
 
@@ -72,10 +72,10 @@ However, only the public subnet (subnet 1) sh
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NTM4Mjc5LC0xMDQzODkyODA3LDE2Mj
-c0ODQyNzUsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5
-LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOT
-A0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIw
-NiwtMTI0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX
-0=
+eyJoaXN0b3J5IjpbLTEzNzE5Nzk5MjUsLTEwNDM4OTI4MDcsMT
+YyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2
+NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNjcyOTU4LC00OT
+A5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMjY2NDU0
+MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5MDkxMj
+BdfQ==
 -->
