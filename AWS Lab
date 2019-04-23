@@ -120,6 +120,7 @@ You should now be logged into the private instance CLI.
 We will use the private instance to create our web server. Therefore, the instance needs Internet access and a public IP to browse to it.
 
 Given the instance is already running, we cannot edit its settings so we will map an elastic (public) IP address to it.
+In VPC, go to Elastic IPs and create a new one for your VPC. Then edit and attach it to your private EC2 instance.
 
 In the private instance CLI, run the below to install server packages:
 *sudo su
@@ -182,11 +183,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTgwNTU0MCwyMDAzODY0MTM0LC0xMT
-UxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcyNjU1NSwtMjA3Njgz
-MTQ1OSwtMjAyMDc1MjEwLDE1NTIxMjkyMDUsMTI0NDQ0NzYzMy
-wxMzUzNzE0OTA0LDIxOTQxNTA3NywtNTU4OTU2NzUyLC0xMDQz
-ODkyODA3LDE2Mjc0ODQyNzUsLTI3MzAzMjc4LDIxMjU5MDkzNy
-wtNjY4NTg3NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3
-Mjk1OF19
+eyJoaXN0b3J5IjpbLTU2MDIzMzc2MywxNjIxODA1NTQwLDIwMD
+M4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNjUwNzI2
+NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNS
+wxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5
+NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNz
+gsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4
+ODc5MjddfQ==
 -->
