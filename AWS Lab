@@ -54,7 +54,7 @@ Save
 A bastion is a jump box that will allow you to connect to any private instance of your VPC from the Internet. It will act as an intermediate between the public and the private environments.
 
 Go to EC2 Dashboard, launch an instance:
-- AMI XXXXX
+- AMI Amazon Linux
 - Leave default Instance Type
 - Instance details:
 	- Network : your VPC
@@ -186,11 +186,11 @@ Click again on the file URL and the content should now be displayed.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzMjI1MDk2LDE3NDgxMzYzNzIsMTU1OD
-EzNDIyNywxNDg1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0
-NDksLTc4ODU0NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLT
-ExNTExMTQwNTAsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2
-ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNSwxMjQ0NDQ3Nj
-MzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5NTY3NTIsLTEw
-NDM4OTI4MDddfQ==
+eyJoaXN0b3J5IjpbLTE0MTYyMTkxOCwxNzQ4MTM2MzcyLDE1NT
+gxMzQyMjcsMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNzEyNzUx
+NDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAzODY0MTM0LC
+0xMTUxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcyNjU1NSwtMjA3
+NjgzMTQ1OSwtMjAyMDc1MjEwLDE1NTIxMjkyMDUsMTI0NDQ0Nz
+YzMywxMzUzNzE0OTA0LDIxOTQxNTA3NywtNTU4OTU2NzUyLC0x
+MDQzODkyODA3XX0=
 -->
