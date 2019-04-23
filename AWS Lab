@@ -162,7 +162,8 @@ Go to EC2 services and attach the IAM role to the web server.
 
 Retype the same command to check if you now have access to S3. The command should list all the S3 buckets, including the one you created above.
 
-Copy your file to the AWS bucket.
+Create a txt file:
+echo "This is my new file." > 
 s3 aws cp xxx.txt s3://
 Go back to the console and check that the new file has been uploaded.
 
@@ -175,11 +176,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODEzNDIyNywxNDg1ODA0Mjg3LC03NT
-Q4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0NTg5OSwxNjIxODA1
-NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3Mi
-wxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1
-MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MD
-c3LC01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwt
-MjczMDMyNzhdfQ==
+eyJoaXN0b3J5IjpbMTUwNzg1NTM1OCwxNTU4MTM0MjI3LDE0OD
+U4MDQyODcsLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1
+ODk5LDE2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MC
+wxMTg0NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIw
+MjA3NTIxMCwxNTUyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxND
+kwNCwyMTk0MTUwNzcsLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywx
+NjI3NDg0Mjc1XX0=
 -->
