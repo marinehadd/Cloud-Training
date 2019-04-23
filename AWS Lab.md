@@ -128,13 +128,21 @@ Go to Security Groups and add Custom TCP (port 5000) from 0.0.0.0/0 on the priva
 
 Login to the web server CLI (via the bastion since SSH access is restricted for mgmt purpose), run the below to install server packages:
 *sudo su
+
 yum install git
+
 yum install python 2.7
+
 yum install python-pip
+
 pip install flask
+
 pip show flask
+
 git clone https://github.com/MonkeyNadz/MyFirstFlask.git
+
 cd MyFirstFlask/app/
+
 python app.py*
 
 
