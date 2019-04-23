@@ -165,8 +165,7 @@ Go to IAM services and create a role to give your EC2 instance access to the S3 
 
 Go to EC2 services and attach the IAM role to the web server.
 
-SSH to the web server and check if you can now access the S3 bucket:
-*s3 aws ls*
+Retype the same command to check if you now have access to S3. The command should list all the S3 buckets, including the one you created above.
 
 Copy your file to the AWS bucket.
 s3 aws cp xxx.txt s3://
@@ -181,7 +180,7 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NDUyOTQ3LDE0ODU4MDQyODcsLTc1ND
+eyJoaXN0b3J5IjpbNjA3NjE2Nzg5LDE0ODU4MDQyODcsLTc1ND
 g2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1
 NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MCwxMTg0NDE2MzcyLD
 E2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIwMjA3NTIxMCwxNTUy
