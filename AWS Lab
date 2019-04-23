@@ -153,6 +153,9 @@ Go to IAM services and create a role:
 - Policy : AmazonS3FullAccess
 - Tag : S3adminYourName
 
+Go to EC2 services a
+SSH to the web server and check if you can now access the S3 bucket:
+s3 aws ls
 
 
 
@@ -163,11 +166,11 @@ Go to IAM services and create a role:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDM0ODE5NywxNTUyMTI5MjA1LDEyND
-Q0NDc2MzMsMTM1MzcxNDkwNCwyMTk0MTUwNzcsLTU1ODk1Njc1
-MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3OCwyMT
-I1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yODg4Nzky
-NywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMwMiwxMz
-gzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIyODI2NjIsLTcyNjY4
-MTgwNF19
+eyJoaXN0b3J5IjpbNzc2OTUxMjQ0LDE1NTIxMjkyMDUsMTI0ND
+Q0NzYzMywxMzUzNzE0OTA0LDIxOTQxNTA3NywtNTU4OTU2NzUy
+LC0xMDQzODkyODA3LDE2Mjc0ODQyNzUsLTI3MzAzMjc4LDIxMj
+U5MDkzNywtNjY4NTg3NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3
+LDI0MDY3Mjk1OCwtNDkwOTA0NjEyLC0xODg3MTA4MzAyLDEzOD
+M5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNzI2Njgx
+ODA0XX0=
 -->
