@@ -142,6 +142,7 @@ On chrome or IE, browse to HTTP://ElasticIP:5000.
 
 # Lab 3 : Create a S3 bucket
 
+
 Go to S3 services and create a bucket:
 - Name : S3-YourName
 - Region should be the same as your EC2 instances
@@ -178,11 +179,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNz
-EyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAzODY0
-MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcyNjU1NS
-wtMjA3NjgzMTQ1OSwtMjAyMDc1MjEwLDE1NTIxMjkyMDUsMTI0
-NDQ0NzYzMywxMzUzNzE0OTA0LDIxOTQxNTA3NywtNTU4OTU2Nz
-UyLC0xMDQzODkyODA3LDE2Mjc0ODQyNzUsLTI3MzAzMjc4LDIx
-MjU5MDkzN119
+eyJoaXN0b3J5IjpbNDUzMjIxNDU3LDE0ODU4MDQyODcsLTc1ND
+g2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1
+NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MCwxMTg0NDE2MzcyLD
+E2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIwMjA3NTIxMCwxNTUy
+MTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxNDkwNCwyMTk0MTUwNz
+csLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0y
+NzMwMzI3OF19
 -->
