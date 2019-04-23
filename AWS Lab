@@ -118,17 +118,13 @@ You should now be logged into the private instance CLI.
 # Lab 2 : Create a Web Server
 
 In the private instance CLI, run the below to install server packages:
-yum install git
-yumpython 2.7
-pip
+*yum install git
+yum install python 2.7
+yum install pip
 pip install flask
 git clone https://github.com/MonkeyNadz/MyFirstFlask.git
 cd MyFirstFlask/App/
-python app.py
-
-just need the below installed before running
-
-git
+python app.py*
 
 Open your browser and try to browse to the web server URL. This should fail because the server is not accessible from the Internet. In order to access the URL, we have two options:
 - open a tunnel on port 5000 from the bastion
@@ -182,11 +178,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDU0NDQ1NiwtMjAyMDc1MjEwLDE1NT
-IxMjkyMDUsMTI0NDQ0NzYzMywxMzUzNzE0OTA0LDIxOTQxNTA3
-NywtNTU4OTU2NzUyLC0xMDQzODkyODA3LDE2Mjc0ODQyNzUsLT
-I3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwODgyNjQ4
-MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOTA0NjEyLC0xOD
-g3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4
-MjY2Ml19
+eyJoaXN0b3J5IjpbLTIwNzY4MzE0NTksLTIwMjA3NTIxMCwxNT
+UyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxNDkwNCwyMTk0MTUw
+NzcsLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC
+0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0
+ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMT
+g4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIy
+ODI2NjJdfQ==
 -->
