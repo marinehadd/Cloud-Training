@@ -124,10 +124,9 @@ In VPC, go to Elastic IPs and create a new one for your VPC. Then edit and attac
 
 Go to Route Tables and associate the private subnet to the public route table where you initially configured the Internet Gateway.
 
-Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below port with source 0.0.0.0/0:
-- Custom TCP (5000)
+Go to Security Groups and add Custom TCP (port 5000) from 0.0.0.0/0 on the private instance security group. Also, rename it with web instead of private and do the same for the EC2 instance.
 
-In the private instance CLI, run the below to install server packages:
+Login to the web server CLI (via the bastion , run the below to install server packages:
 *sudo su
 yum install git
 yum install python 2.7
@@ -186,7 +185,7 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA0Mzc1MTYsLTc4ODU0NTg5OSwxNj
+eyJoaXN0b3J5IjpbLTEzNzk4NjQ2MDgsLTc4ODU0NTg5OSwxNj
 IxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQx
 NjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMT
 AsMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5
