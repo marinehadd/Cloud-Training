@@ -137,16 +137,8 @@ git clone https://github.com/MonkeyNadz/MyFirstFlask.git
 cd MyFirstFlask/app/
 python app.py*
 
-Open your browser and try to browse to the web server URL. This should fail because the server is not accessible from the Internet. In order to access the URL, we have two options:
 
-Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below port with source 0.0.0.0/0:
-- Custom TCP (5000)
-
-Go to Instances and select the private instance:
-- rename it as a web server
-- click actions and map the new security group
-
-On chrome or IE, browse to the http URL.
+On chrome or IE, browse to the EIP http URL.
 
 # Lab 3 : Create a S3 bucket
 
@@ -185,11 +177,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MzExOTYyLC03ODg1NDU4OTksMTYyMT
-gwNTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYz
-NzIsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMjAyMDc1MjEwLD
-E1NTIxMjkyMDUsMTI0NDQ0NzYzMywxMzUzNzE0OTA0LDIxOTQx
-NTA3NywtNTU4OTU2NzUyLC0xMDQzODkyODA3LDE2Mjc0ODQyNz
-UsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwODgy
-NjQ4MzJdfQ==
+eyJoaXN0b3J5IjpbLTE3MTI3NTE0NDksLTc4ODU0NTg5OSwxNj
+IxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQx
+NjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMT
+AsMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5
+NDE1MDc3LC01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4ND
+I3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4
+ODI2NDgzMl19
 -->
