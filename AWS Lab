@@ -130,7 +130,7 @@ Open your browser and try to browse to the web server URL. This should fail beca
 - open a tunnel on port 5000 from the bastion
 - make the instance public
 
-Given this private instance is meant to be a web server, we will change it is security group settings and make it public.
+Given this private instance is meant to be a web server, we will change its security group settings and make it public on port 5000.
 
 Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below port with source 0.0.0.0/0:
 - Custom TCP (5000)
@@ -178,11 +178,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY4MzE0NTksLTIwMjA3NTIxMCwxNT
-UyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxNDkwNCwyMTk0MTUw
-NzcsLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC
-0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0
-ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MDkwNDYxMiwtMT
-g4NzEwODMwMiwxMzgzOTk3OTA0LC0yNjY0NTQyMDYsLTEyNDIy
-ODI2NjJdfQ==
+eyJoaXN0b3J5IjpbMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMj
+AyMDc1MjEwLDE1NTIxMjkyMDUsMTI0NDQ0NzYzMywxMzUzNzE0
+OTA0LDIxOTQxNTA3NywtNTU4OTU2NzUyLC0xMDQzODkyODA3LD
+E2Mjc0ODQyNzUsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3
+NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtND
+kwOTA0NjEyLC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1
+NDIwNl19
 -->
