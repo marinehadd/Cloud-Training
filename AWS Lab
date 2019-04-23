@@ -126,7 +126,7 @@ Go to Route Tables and associate the private subnet to the public route table wh
 
 Go to Security Groups and add Custom TCP (port 5000) from 0.0.0.0/0 on the private instance security group. Also, rename it with web instead of private and do the same for the EC2 instance.
 
-Login to the web server CLI (via the bastion , run the below to install server packages:
+Login to the web server CLI (via the bastion since SSH access is restricted for mgmt purpose), run the below to install server packages:
 *sudo su
 yum install git
 yum install python 2.7
@@ -185,11 +185,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk4NjQ2MDgsLTc4ODU0NTg5OSwxNj
-IxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQx
-NjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMT
-AsMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5
-NDE1MDc3LC01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4ND
-I3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4
-ODI2NDgzMl19
+eyJoaXN0b3J5IjpbMzM0MzExOTYyLC03ODg1NDU4OTksMTYyMT
+gwNTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYz
+NzIsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMjAyMDc1MjEwLD
+E1NTIxMjkyMDUsMTI0NDQ0NzYzMywxMzUzNzE0OTA0LDIxOTQx
+NTA3NywtNTU4OTU2NzUyLC0xMDQzODkyODA3LDE2Mjc0ODQyNz
+UsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwODgy
+NjQ4MzJdfQ==
 -->
