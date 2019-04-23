@@ -148,11 +148,6 @@ Go to S3 services and create a bucket:
 
 Skip the next steps and click Create.
 
-On your laptop, open notepad and create a .txt file with the below content:
-*Hello, my name is xxxxx.*
-
-Click on your bucket and upload the .txt file.
-
 On the web server CLI, type *aws s3 ls*to display the S3 buckets list. 
 The command fails because your instance has no right to access the S3 services.
 
@@ -180,11 +175,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NjE2Nzg5LDE0ODU4MDQyODcsLTc1ND
-g2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1
-NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MCwxMTg0NDE2MzcyLD
-E2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIwMjA3NTIxMCwxNTUy
-MTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxNDkwNCwyMTk0MTUwNz
-csLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0y
-NzMwMzI3OF19
+eyJoaXN0b3J5IjpbMTU1ODEzNDIyNywxNDg1ODA0Mjg3LC03NT
+Q4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0NTg5OSwxNjIxODA1
+NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3Mi
+wxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1
+MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MD
+c3LC01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwt
+MjczMDMyNzhdfQ==
 -->
