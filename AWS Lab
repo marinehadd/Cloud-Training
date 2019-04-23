@@ -119,7 +119,10 @@ You should now be logged into the private instance CLI.
 
 To give internet access to the private instance to download packages:
 VPC then NAT gateway
-- sele
+- select VPC
+- Create new Elastic IP
+
+Route tables - main route table - associate
 In the private instance CLI, run the below to install server packages:
 *yum install git
 yum install python 2.7
@@ -181,11 +184,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzODg0Mzk3LDE2NTA3MjY1NTUsLTIwNz
-Y4MzE0NTksLTIwMjA3NTIxMCwxNTUyMTI5MjA1LDEyNDQ0NDc2
-MzMsMTM1MzcxNDkwNCwyMTk0MTUwNzcsLTU1ODk1Njc1MiwtMT
-A0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5
-MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yODg4NzkyNywyND
-A2NzI5NTgsLTQ5MDkwNDYxMiwtMTg4NzEwODMwMiwxMzgzOTk3
-OTA0XX0=
+eyJoaXN0b3J5IjpbMTA1MzYwNDc1OCwxNjUwNzI2NTU1LC0yMD
+c2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNSwxMjQ0NDQ3
+NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5NTY3NTIsLT
+EwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkw
+OTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMj
+QwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5
+NzkwNF19
 -->
