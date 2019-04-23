@@ -124,6 +124,8 @@ In VPC, go to Elastic IPs and create a new one for your VPC. Then edit and attac
 
 Go to Route Tables and associate the private subnet to the public route table where you initially configured the Internet Gateway.
 
+Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below port with source 0.0.0.0/0:
+- Custom TCP (5000)
 
 In the private instance CLI, run the below to install server packages:
 *sudo su
@@ -137,8 +139,6 @@ cd MyFirstFlask/app/
 python app.py*
 
 Open your browser and try to browse to the web server URL. This should fail because the server is not accessible from the Internet. In order to access the URL, we have two options:
-
-Given this private instance is meant to be a web server, we will change its security group settings and make it public on port 5000.
 
 Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below port with source 0.0.0.0/0:
 - Custom TCP (5000)
@@ -186,11 +186,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODU0NTg5OSwxNjIxODA1NTQwLDIwMD
-M4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNjUwNzI2
-NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNS
-wxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5
-NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNz
-gsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4
-ODc5MjddfQ==
+eyJoaXN0b3J5IjpbLTIxNDA0Mzc1MTYsLTc4ODU0NTg5OSwxNj
+IxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQx
+NjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMT
+AsMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5
+NDE1MDc3LC01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4ND
+I3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4
+ODI2NDgzMl19
 -->
