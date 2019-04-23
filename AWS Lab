@@ -142,7 +142,8 @@ Go to S3 services and create a bucket:
 
 Skip the next steps and click Create.
 
-Go inside your bucket and u
+On your laptop, open notepad and create a .txt file with the below content:
+*Hello, my name is xxxxx.*
 
 
 
@@ -152,11 +153,11 @@ Go inside your bucket and u
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0Nzc0MzA2LDE1NTIxMjkyMDUsMTI0ND
-Q0NzYzMywxMzUzNzE0OTA0LDIxOTQxNTA3NywtNTU4OTU2NzUy
-LC0xMDQzODkyODA3LDE2Mjc0ODQyNzUsLTI3MzAzMjc4LDIxMj
-U5MDkzNywtNjY4NTg3NjY5LDIwODgyNjQ4MzIsLTI4ODg3OTI3
-LDI0MDY3Mjk1OCwtNDkwOTA0NjEyLC0xODg3MTA4MzAyLDEzOD
-M5OTc5MDQsLTI2NjQ1NDIwNiwtMTI0MjI4MjY2MiwtNzI2Njgx
-ODA0XX0=
+eyJoaXN0b3J5IjpbLTEyMzg1NjI2MzIsMTU1MjEyOTIwNSwxMj
+Q0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5NTY3
+NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMj
+EyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5
+MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMT
+M4Mzk5NzkwNCwtMjY2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2
+ODE4MDRdfQ==
 -->
