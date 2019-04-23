@@ -125,16 +125,13 @@ Open your browser and try to browse to the web server URL. This should fail beca
 
 Given this private instance is meant to be a web server, we will change it is security group settings and make it public.
 
-Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below ports with source 0.0.0.0/0:
-- SSH (22)
-- HTTP (80)
+Log back into the AWS console, go to EC2 dashboard then security groups and create Web-SG-YourName with the below port with source 0.0.0.0/0:
 - Custom TCP (5000)
 
 Go to Instances and select the private instance:
 - rename it as a web server
-- click actions, edit security group and map the new created
+- click actions and map the new security group
 
-Now, open Putty and SSH to the web server (don't forget to load the ppk file).
 On chrome or IE, browse to the http URL.
 
 
@@ -144,10 +141,11 @@ On chrome or IE, browse to the http URL.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDQ0NzYzMywxMzUzNzE0OTA0LDIxOT
-QxNTA3NywtNTU4OTU2NzUyLC0xMDQzODkyODA3LDE2Mjc0ODQy
-NzUsLTI3MzAzMjc4LDIxMjU5MDkzNywtNjY4NTg3NjY5LDIwOD
-gyNjQ4MzIsLTI4ODg3OTI3LDI0MDY3Mjk1OCwtNDkwOTA0NjEy
-LC0xODg3MTA4MzAyLDEzODM5OTc5MDQsLTI2NjQ1NDIwNiwtMT
-I0MjI4MjY2MiwtNzI2NjgxODA0LC0xNjc2OTA5MTIwXX0=
+eyJoaXN0b3J5IjpbMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNT
+M3MTQ5MDQsMjE5NDE1MDc3LC01NTg5NTY3NTIsLTEwNDM4OTI4
+MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkwOTM3LC02Nj
+g1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMjQwNjcyOTU4
+LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5NzkwNCwtMj
+Y2NDU0MjA2LC0xMjQyMjgyNjYyLC03MjY2ODE4MDQsLTE2NzY5
+MDkxMjBdfQ==
 -->
