@@ -142,7 +142,6 @@ On chrome or IE, browse to HTTP://ElasticIP:5000.
 
 # Lab 3 : Create a S3 bucket
 
-
 Go to S3 services and create a bucket:
 - Name : S3-YourName
 - Region should be the same as your EC2 instances
@@ -153,6 +152,9 @@ On your laptop, open notepad and create a .txt file with the below content:
 *Hello, my name is xxxxx.*
 
 Click on your bucket and upload the .txt file.
+
+On the web server CLI, type *aws s3 ls*to display the S3 buckets list. 
+The command fails because your instance has no right to access the S3 services.
 
 Go to IAM services and create a role to give your EC2 instance access to the S3 services:
 - Trusted Entity : AWS Services
@@ -179,7 +181,7 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMjIxNDU3LDE0ODU4MDQyODcsLTc1ND
+eyJoaXN0b3J5IjpbNjM5NDUyOTQ3LDE0ODU4MDQyODcsLTc1ND
 g2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1
 NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MCwxMTg0NDE2MzcyLD
 E2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIwMjA3NTIxMCwxNTUy
