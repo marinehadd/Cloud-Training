@@ -128,8 +128,9 @@ In the private instance CLI, run the below to install server packages:
 *sudo su
 yum install git
 yum install python 2.7
-yum install pip
+yum install python-pip
 pip install flask
+pip show flask
 git clone https://github.com/MonkeyNadz/MyFirstFlask.git
 cd MyFirstFlask/App/
 python app.py*
@@ -186,11 +187,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMD
-c2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNSwxMjQ0NDQ3
-NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5NTY3NTIsLT
-EwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkw
-OTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMiwtMjg4ODc5MjcsMj
-QwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcxMDgzMDIsMTM4Mzk5
-NzkwNF19
+eyJoaXN0b3J5IjpbLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNj
+UwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEy
+OTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC
+01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjcz
+MDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMi
+wtMjg4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcx
+MDgzMDJdfQ==
 -->
