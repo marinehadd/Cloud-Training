@@ -153,11 +153,12 @@ On your laptop, open notepad and create a .txt file with the below content:
 
 Click on your bucket and upload the .txt file.
 
-Go to IAM services and create a role:
+Go to IAM services and create a role to give your EC2 instance access to the S3 services:
 - Trusted Entity : AWS Services
 - Used by : EC2 instance
 - Policy : AmazonS3FullAccess
-- Tag : S3adminYourName
+- Tag : S3 admin access
+- Role Name : S3adminYourName
 
 Go to EC2 services and attach the IAM role to the web server.
 
@@ -177,11 +178,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNz
-g4NTQ1ODk5LDE2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1MTEx
-NDA1MCwxMTg0NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NT
-ksLTIwMjA3NTIxMCwxNTUyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1
-MzcxNDkwNCwyMTk0MTUwNzcsLTU1ODk1Njc1MiwtMTA0Mzg5Mj
-gwNywxNjI3NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2
-ODU4NzY2OV19
+eyJoaXN0b3J5IjpbMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNz
+EyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAzODY0
+MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcyNjU1NS
+wtMjA3NjgzMTQ1OSwtMjAyMDc1MjEwLDE1NTIxMjkyMDUsMTI0
+NDQ0NzYzMywxMzUzNzE0OTA0LDIxOTQxNTA3NywtNTU4OTU2Nz
+UyLC0xMDQzODkyODA3LDE2Mjc0ODQyNzUsLTI3MzAzMjc4LDIx
+MjU5MDkzN119
 -->
