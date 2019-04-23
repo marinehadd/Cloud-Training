@@ -125,7 +125,8 @@ VPC then NAT gateway
 Route tables - main route table - edit routes - add route - 0.0.0.0/0 dest - NAT gw - select the one.
 
 In the private instance CLI, run the below to install server packages:
-*yum install git
+*sudo su
+yum install git
 yum install python 2.7
 yum install pip
 pip install flask
@@ -185,7 +186,7 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODA0MDQ4MSwxNjUwNzI2NTU1LC0yMD
+eyJoaXN0b3J5IjpbMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMD
 c2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNSwxMjQ0NDQ3
 NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC01NTg5NTY3NTIsLT
 EwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjczMDMyNzgsMjEyNTkw
