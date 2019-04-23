@@ -172,7 +172,9 @@ If you cannot access it, it means that your bucket has no public access.
 Go back to the bucket list :
 - Select your bucket
 - Edit public access settings
-- Mak
+- Make sure all boxes are unticked and Save
+
+Go to your txt file inside your bucket, 
 
 
 
@@ -182,11 +184,11 @@ Go back to the bucket list :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk0MjQxNTQsMTU1ODEzNDIyNywxND
-g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
-NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNT
-AsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0y
-MDIwNzUyMTAsMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MT
-Q5MDQsMjE5NDE1MDc3LC01NTg5NTY3NTIsLTEwNDM4OTI4MDcs
-MTYyNzQ4NDI3NV19
+eyJoaXN0b3J5IjpbLTY4ODAwMzk3NiwxNTU4MTM0MjI3LDE0OD
+U4MDQyODcsLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1
+ODk5LDE2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MC
+wxMTg0NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIw
+MjA3NTIxMCwxNTUyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxND
+kwNCwyMTk0MTUwNzcsLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywx
+NjI3NDg0Mjc1XX0=
 -->
