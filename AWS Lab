@@ -132,12 +132,11 @@ yum install python-pip
 pip install flask
 pip show flask
 git clone https://github.com/MonkeyNadz/MyFirstFlask.git
-cd MyFirstFlask/App/
+cd MyFirstFlask/app/
 python app.py*
 
 Open your browser and try to browse to the web server URL. This should fail because the server is not accessible from the Internet. In order to access the URL, we have two options:
 - open a tunnel on port 5000 from the bastion
-- make the instance public
 
 Given this private instance is meant to be a web server, we will change its security group settings and make it public on port 5000.
 
@@ -187,11 +186,11 @@ Go back to the console and check that the new file has been uploaded.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNj
-UwNzI2NTU1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEy
-OTIwNSwxMjQ0NDQ3NjMzLDEzNTM3MTQ5MDQsMjE5NDE1MDc3LC
-01NTg5NTY3NTIsLTEwNDM4OTI4MDcsMTYyNzQ4NDI3NSwtMjcz
-MDMyNzgsMjEyNTkwOTM3LC02Njg1ODc2NjksMjA4ODI2NDgzMi
-wtMjg4ODc5MjcsMjQwNjcyOTU4LC00OTA5MDQ2MTIsLTE4ODcx
-MDgzMDJdfQ==
+eyJoaXN0b3J5IjpbMjAwMzg2NDEzNCwtMTE1MTExNDA1MCwxMT
+g0NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIwMjA3
+NTIxMCwxNTUyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxNDkwNC
+wyMTk0MTUwNzcsLTU1ODk1Njc1MiwtMTA0Mzg5MjgwNywxNjI3
+NDg0Mjc1LC0yNzMwMzI3OCwyMTI1OTA5MzcsLTY2ODU4NzY2OS
+wyMDg4MjY0ODMyLC0yODg4NzkyNywyNDA2NzI5NTgsLTQ5MDkw
+NDYxMl19
 -->
