@@ -166,8 +166,13 @@ Create a txt file:
 *echo "This is my new file." > yourname.txt
 s3 aws cp yourname.txt s3://yourbucketname*
 
-Go back to the console and check that the new file has been uploaded. Select it, and click on the URL link displayed on the right panel to check the content of the file.
-If
+Go back to the console and check that the new file has been uploaded. Select it, and click on the URL displayed on the right panel to check the content of the file.
+If you cannot access it, it means that your bucket has no public access.
+
+Go back to the bucket list :
+- Select your bucket
+- Edit public access settings
+- Mak
 
 
 
@@ -177,7 +182,7 @@ If
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI1NTUyODAsMTU1ODEzNDIyNywxND
+eyJoaXN0b3J5IjpbLTIwMjk0MjQxNTQsMTU1ODEzNDIyNywxND
 g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
 NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNT
 AsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0y
