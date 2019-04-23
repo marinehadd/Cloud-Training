@@ -148,8 +148,13 @@ On your laptop, open notepad and create a .txt file with the below content:
 Click on your bucket and upload the .txt file.
 
 Go to IAM services and create a role:
-- Trusted Entity AWS Services
-- 
+- Trusted Entity : AWS Services
+- Used by : EC2 instance
+- Policy : AmazonS3FullAccess
+- Tag : S3adminYourName
+
+
+
 
 
 
@@ -158,7 +163,7 @@ Go to IAM services and create a role:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDE4NTc5OCwxNTUyMTI5MjA1LDEyND
+eyJoaXN0b3J5IjpbLTU1MDM0ODE5NywxNTUyMTI5MjA1LDEyND
 Q0NDc2MzMsMTM1MzcxNDkwNCwyMTk0MTUwNzcsLTU1ODk1Njc1
 MiwtMTA0Mzg5MjgwNywxNjI3NDg0Mjc1LC0yNzMwMzI3OCwyMT
 I1OTA5MzcsLTY2ODU4NzY2OSwyMDg4MjY0ODMyLC0yODg4Nzky
