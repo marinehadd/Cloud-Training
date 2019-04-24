@@ -218,15 +218,13 @@ chkconfig httpd on
 cd /var/www/html
 echo "< html >< h1 >Hello World< /h1 ></html>" > index.html*
 
+Browse to their public IP to HTTP://IP/index.html
 
-
-
-
-Go to Load Balancers and create an Application LB:
+Go to Load Balancers and create a Classic Load Balancer:
 - Name : WebServer-LB-Name
-- Internet-Facing (since these are web servers)
-- Listener Port : 5000
-- VPC -> select your VPC and tick all availability zones
+- Select your VPC
+- Listener on HTTP 80
+- 
 - Security Group : use the same as the web servers
 - Target Group -> select existing and your new created
 - Leave the rest as default and Create
@@ -243,11 +241,11 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI1MjYzOTAsMTYwNjcxNzQxNywtNj
-YwNzk4OTY4LDE3Mzc3MTg4MCw3MzY1NjA0NzUsLTE5NTU1MDE4
-NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0NCwtMT
-QxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxNDg1ODA0
-Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0NTg5OS
-wxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4
-NDQxNjM3Ml19
+eyJoaXN0b3J5IjpbMTk4Nzk3OTkzMywtMTg0MjUyNjM5MCwxNj
+A2NzE3NDE3LC02NjA3OTg5NjgsMTczNzcxODgwLDczNjU2MDQ3
+NSwtMTk1NTUwMTg1OSwtMTc0NjE3MDg5LC03NzU3NTY0NjAsNz
+A5NzA4ODQ0LC0xNDE2MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0
+MjI3LDE0ODU4MDQyODcsLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OS
+wtNzg4NTQ1ODk5LDE2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1
+MTExNDA1MF19
 -->
