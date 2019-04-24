@@ -202,10 +202,10 @@ Create an EC2 instance with the below settings:
 		- Select third availability zone of your region (i.e. 1c)
 		- IPv4 CIDR 10.0.3.0/24
 		- Create and go back to EC2 launch page
-	- Auto-assign public IP : leave default
+	- Auto-assign public IP : enable
 - Leave default storage
-- Tag : Server-YourName
-- Select the default existing Security Group
+- Tag : WebServer02-YourName
+- Select the existing
 - Review and Launch then Launch
 - Select the existing key pair EC2-KP-YourName, acknowledge and launch.
 
@@ -225,11 +225,11 @@ Go to Load Balancers and create a target group:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNDgwMTgwLDczNjU2MDQ3NSwtMTk1NT
-UwMTg1OSwtMTc0NjE3MDg5LC03NzU3NTY0NjAsNzA5NzA4ODQ0
-LC0xNDE2MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0MjI3LDE0OD
-U4MDQyODcsLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1
-ODk5LDE2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MC
-wxMTg0NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIw
-MjA3NTIxMF19
+eyJoaXN0b3J5IjpbMjA2ODExNTE5Myw3MzY1NjA0NzUsLTE5NT
+U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
+NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
+g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
+NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNT
+AsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0y
+MDIwNzUyMTBdfQ==
 -->
