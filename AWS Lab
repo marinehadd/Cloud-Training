@@ -191,6 +191,8 @@ Click again on the file URL and the content should now be displayed.
 
 Create new instance with new subnet in az-c and same sg than web01
 Associate new subnet to route table
+ssh to it via bastion
+install same config as webserver01
 
 
 
@@ -200,11 +202,11 @@ Associate new subnet to route table
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MT
-YyMTkxOCwxNzQ4MTM2MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4
-NywtNzU0ODYzNzgwLC0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMT
-YyMTgwNTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0
-MTYzNzIsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMjAyMDc1Mj
-EwLDE1NTIxMjkyMDUsMTI0NDQ0NzYzMywxMzUzNzE0OTA0LDIx
-OTQxNTA3N119
+eyJoaXN0b3J5IjpbLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOT
+cwODg0NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIy
+NywxNDg1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLT
+c4ODU0NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTEx
+MTQwNTAsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxND
+U5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNSwxMjQ0NDQ3NjMzLDEz
+NTM3MTQ5MDRdfQ==
 -->
