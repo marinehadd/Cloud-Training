@@ -224,10 +224,13 @@ Go to Load Balancers and create a Classic Load Balancer:
 - Name : WebServer-LB-Name
 - Select your VPC
 - Listener on HTTP 80
-- 
+- Select the two web server subnets
 - Security Group : use the same as the web servers
-- Target Group -> select existing and your new created
-- Leave the rest as default and Create
+- Ping path : /index.html
+- Leave the rest as default and create
+
+When you select it once ready, the web servers load balanced are displayed at the bottom. They should both come "in-service".
+
 
 
 Create 
@@ -241,7 +244,7 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Nzk3OTkzMywtMTg0MjUyNjM5MCwxNj
+eyJoaXN0b3J5IjpbMTYwNTg4MDcxMiwtMTg0MjUyNjM5MCwxNj
 A2NzE3NDE3LC02NjA3OTg5NjgsMTczNzcxODgwLDczNjU2MDQ3
 NSwtMTk1NTUwMTg1OSwtMTc0NjE3MDg5LC03NzU3NTY0NjAsNz
 A5NzA4ODQ0LC0xNDE2MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0
