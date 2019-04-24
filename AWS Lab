@@ -236,6 +236,8 @@ Go back to Target Groups, select your group and in Target, edit and register bot
 
 Open two putty sessions, one for each web server CLI. On both, run the app.py application.
 
+Create 
+
 
 
 
@@ -245,11 +247,11 @@ Open two putty sessions, one for each web server CLI. On both, run the app.py ap
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzcxODgwLDczNjU2MDQ3NSwtMTk1NT
-UwMTg1OSwtMTc0NjE3MDg5LC03NzU3NTY0NjAsNzA5NzA4ODQ0
-LC0xNDE2MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0MjI3LDE0OD
-U4MDQyODcsLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1
-ODk5LDE2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MC
-wxMTg0NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIw
-MjA3NTIxMF19
+eyJoaXN0b3J5IjpbLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NT
+YwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2
+MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2MzcyLDE1NT
+gxMzQyMjcsMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNzEyNzUx
+NDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAzODY0MTM0LC
+0xMTUxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcyNjU1NSwtMjA3
+NjgzMTQ1OV19
 -->
