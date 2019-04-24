@@ -205,11 +205,11 @@ Create an EC2 instance with the below settings:
 	- Auto-assign public IP : enable
 - Leave default storage
 - Tag : WebServer02-YourName
-- Select the existing
+- Select the existing security group of your web server 01
 - Review and Launch then Launch
 - Select the existing key pair EC2-KP-YourName, acknowledge and launch.
 
-new subnet in az-c and same sg than web01
+Go to Route Tables in VPCs, select the public route table where your web server 01 and yo
 Associate new subnet to route table
 ssh to it via bastion
 install same config as webserver01
@@ -225,7 +225,7 @@ Go to Load Balancers and create a target group:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODExNTE5Myw3MzY1NjA0NzUsLTE5NT
+eyJoaXN0b3J5IjpbLTI5NzAyMDQxNCw3MzY1NjA0NzUsLTE5NT
 U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
 NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
 g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
