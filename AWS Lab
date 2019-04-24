@@ -239,9 +239,12 @@ Refresh the web page again several times, only the content of web server 2 shoul
 
 Create a friendly name for your load balancer. Copy the current name on a notepad.
 Go to Route53 then hosted zones, click on ici-training.net and create a new record set:
+-Name : choose a new friendly name 
 - CNAME record
-- Alias : mynewfriendlyname
-- 
+- Value : your DNS LB name
+
+Now browse to the new name you choose, you should get the same web page as before.
+
 
 
 
@@ -252,11 +255,11 @@ Go to Route53 then hosted zones, click on ici-training.net and create a new reco
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMDMxOTE3LDExNTI0MDM2NjksLTE4ND
-I1MjYzOTAsMTYwNjcxNzQxNywtNjYwNzk4OTY4LDE3Mzc3MTg4
-MCw3MzY1NjA0NzUsLTE5NTU1MDE4NTksLTE3NDYxNzA4OSwtNz
-c1NzU2NDYwLDcwOTcwODg0NCwtMTQxNjIxOTE4LDE3NDgxMzYz
-NzIsMTU1ODEzNDIyNywxNDg1ODA0Mjg3LC03NTQ4NjM3ODAsLT
-E3MTI3NTE0NDksLTc4ODU0NTg5OSwxNjIxODA1NTQwLDIwMDM4
-NjQxMzRdfQ==
+eyJoaXN0b3J5IjpbMTUyMzg2NDgxNiwxMTUyNDAzNjY5LC0xOD
+QyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4
+ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODksLT
+c3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2
+MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC
+0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAz
+ODY0MTM0XX0=
 -->
