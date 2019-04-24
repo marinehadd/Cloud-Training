@@ -227,7 +227,10 @@ Go to Load Balancers and create an Application LB:
 - Name : WebServer-LB-Name
 - Internet-Facing (since these are web servers)
 - Listener Port : 5000
-- VPC -> sele
+- VPC -> select your VPC and tick all availability zones
+- Security Group : use the same as the web servers
+- Target Group -> select existing and your new created
+- Leave the rest as default a
 
 
 
@@ -237,7 +240,7 @@ Go to Load Balancers and create an Application LB:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjMwNjM5Myw3MzY1NjA0NzUsLTE5NT
+eyJoaXN0b3J5IjpbMTM5NzYzNDczMiw3MzY1NjA0NzUsLTE5NT
 U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
 NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
 g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
