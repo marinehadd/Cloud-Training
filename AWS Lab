@@ -216,7 +216,8 @@ Login to both CLI web servers and run the below commands to install an http serv
 service httpd start
 chkconfig httpd on
 cd /var/www/html
-echo "< html >< h1 >Hello World< /h1 ></html>" > index.html*
+echo "< html >< h1 >Hello World X< /h1 ></html>" > index.html* ** 
+**(X being 1 for webserver 1 and 2 for webserver2)****
 
 Browse to their public IP to HTTP://IP/index.html
 
@@ -244,11 +245,11 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYxMDAwNjAsMTE1MjQwMzY2OSwtMT
-g0MjUyNjM5MCwxNjA2NzE3NDE3LC02NjA3OTg5NjgsMTczNzcx
-ODgwLDczNjU2MDQ3NSwtMTk1NTUwMTg1OSwtMTc0NjE3MDg5LC
-03NzU3NTY0NjAsNzA5NzA4ODQ0LC0xNDE2MjE5MTgsMTc0ODEz
-NjM3MiwxNTU4MTM0MjI3LDE0ODU4MDQyODcsLTc1NDg2Mzc4MC
-wtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1NDAsMjAw
-Mzg2NDEzNF19
+eyJoaXN0b3J5IjpbMTUyMzExMjI4NywxMTUyNDAzNjY5LC0xOD
+QyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4
+ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODksLT
+c3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2
+MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC
+0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAz
+ODY0MTM0XX0=
 -->
