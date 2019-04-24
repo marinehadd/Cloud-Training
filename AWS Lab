@@ -209,9 +209,9 @@ Create an EC2 instance with the below settings:
 - Review and Launch then Launch
 - Select the existing key pair EC2-KP-YourName, acknowledge and launch.
 
-Go to Route Tables in VPCs, select the public route table where your web server 01 and yo
-Associate new subnet to route table
-ssh to it via bastion
+Go to Route Tables in VPCs, select the public route table where your web server 01 and your bastion subnets are associated, and associate the web server 02 subnet to the table.
+
+Login to the web server 02 CLI via the bastion and using its private IP, then install the packages and build the flask website as you did for 
 install same config as webserver01
 go to the url to make sure it works.
 
@@ -225,7 +225,7 @@ Go to Load Balancers and create a target group:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzAyMDQxNCw3MzY1NjA0NzUsLTE5NT
+eyJoaXN0b3J5IjpbLTM1MTY5MjY3MSw3MzY1NjA0NzUsLTE5NT
 U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
 NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
 g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
