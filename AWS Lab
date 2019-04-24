@@ -193,8 +193,10 @@ Create new instance with new subnet in az-c and same sg than web01
 Associate new subnet to route table
 ssh to it via bastion
 install same config as webserver01
+go to the url to make sure it works.
 
-Go to Load Balancers and create an application LB
+Go to Load Balancers and create a target group:
+
 
 
 
@@ -203,11 +205,11 @@ Go to Load Balancers and create an application LB
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU1MDE4NTksLTE3NDYxNzA4OSwtNz
-c1NzU2NDYwLDcwOTcwODg0NCwtMTQxNjIxOTE4LDE3NDgxMzYz
-NzIsMTU1ODEzNDIyNywxNDg1ODA0Mjg3LC03NTQ4NjM3ODAsLT
-E3MTI3NTE0NDksLTc4ODU0NTg5OSwxNjIxODA1NTQwLDIwMDM4
-NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNjUwNzI2NT
-U1LC0yMDc2ODMxNDU5LC0yMDIwNzUyMTAsMTU1MjEyOTIwNSwx
-MjQ0NDQ3NjMzXX0=
+eyJoaXN0b3J5IjpbNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNz
+Q2MTcwODksLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkx
+OCwxNzQ4MTM2MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4NywtNz
+U0ODYzNzgwLC0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgw
+NTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYzNz
+IsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMjAyMDc1MjEwLDE1
+NTIxMjkyMDVdfQ==
 -->
