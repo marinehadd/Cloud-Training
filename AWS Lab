@@ -230,7 +230,7 @@ Go to Load Balancers and create a Classic Load Balancer:
 - Leave the rest as default and create
 
 When you select it once ready, the web servers load balanced are displayed at the bottom. They should both come "in-service".
-
+On the description tab, copy the DNS name and browse to it on HTTP.
 
 
 Create 
@@ -244,7 +244,7 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTg4MDcxMiwtMTg0MjUyNjM5MCwxNj
+eyJoaXN0b3J5IjpbMTE1MjQwMzY2OSwtMTg0MjUyNjM5MCwxNj
 A2NzE3NDE3LC02NjA3OTg5NjgsMTczNzcxODgwLDczNjU2MDQ3
 NSwtMTk1NTUwMTg1OSwtMTc0NjE3MDg5LC03NzU3NTY0NjAsNz
 A5NzA4ODQ0LC0xNDE2MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0
