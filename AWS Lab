@@ -189,7 +189,11 @@ Click again on the file URL and the content should now be displayed.
 
 # Lab 4 : Create an ELB
 
-Create new instance with new subnet in az-c and same sg than web01
+In this lab, you will create a second web server in order to load balance the traffic between them.
+
+Create an EC2 instance with the below settings:
+
+new subnet in az-c and same sg than web01
 Associate new subnet to route table
 ssh to it via bastion
 install same config as webserver01
@@ -205,11 +209,11 @@ Go to Load Balancers and create a target group:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNz
-Q2MTcwODksLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkx
-OCwxNzQ4MTM2MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4NywtNz
-U0ODYzNzgwLC0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgw
-NTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYzNz
-IsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMjAyMDc1MjEwLDE1
-NTIxMjkyMDVdfQ==
+eyJoaXN0b3J5IjpbMTQyNDA5OTY5NCw3MzY1NjA0NzUsLTE5NT
+U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
+NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
+g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
+NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNT
+AsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0y
+MDIwNzUyMTBdfQ==
 -->
