@@ -187,7 +187,11 @@ Click on your bucket, click on your txt file and click "make public" in the Over
 Click again on the file URL and the content should now be displayed.
 
 
-# Lab 4 : Create a
+# Lab 4 : Create an ELB
+
+Create new instance with new subnet in az-c and same sg than web01
+Associate new subnet to route table
+
 
 
 
@@ -196,11 +200,11 @@ Click again on the file URL and the content should now be displayed.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYwNDg5ODksNzA5NzA4ODQ0LC0xND
-E2MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0MjI3LDE0ODU4MDQy
-ODcsLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LD
-E2MjE4MDU1NDAsMjAwMzg2NDEzNCwtMTE1MTExNDA1MCwxMTg0
-NDE2MzcyLDE2NTA3MjY1NTUsLTIwNzY4MzE0NTksLTIwMjA3NT
-IxMCwxNTUyMTI5MjA1LDEyNDQ0NDc2MzMsMTM1MzcxNDkwNCwy
-MTk0MTUwNzddfQ==
+eyJoaXN0b3J5IjpbLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MT
+YyMTkxOCwxNzQ4MTM2MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4
+NywtNzU0ODYzNzgwLC0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMT
+YyMTgwNTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0
+MTYzNzIsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwtMjAyMDc1Mj
+EwLDE1NTIxMjkyMDUsMTI0NDQ0NzYzMywxMzUzNzE0OTA0LDIx
+OTQxNTA3N119
 -->
