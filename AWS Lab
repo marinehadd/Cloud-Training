@@ -228,10 +228,11 @@ Go to Load Balancers and create a Classic Load Balancer:
 - Select the two web server subnets
 - Security Group : use the same as the web servers
 - Ping path : /index.html
+- Edit healthchecks thresholds to 2sec everywhere
 - Leave the rest as default and create
 
 When you select it once ready, the web servers load balanced are displayed at the bottom. They should both come "in-service".
-On the description tab, copy the DNS name of the load balancer and browse to it.
+On the description tab, copy the DNS name of the load balancer and browse to it. Keep refres
 
 
 Create 
@@ -245,7 +246,7 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzExMjI4NywxMTUyNDAzNjY5LC0xOD
+eyJoaXN0b3J5IjpbLTQ5MDM3MTkyMSwxMTUyNDAzNjY5LC0xOD
 QyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4
 ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODksLT
 c3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2
