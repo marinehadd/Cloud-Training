@@ -192,6 +192,21 @@ Click again on the file URL and the content should now be displayed.
 In this lab, you will create a second web server in order to load balance the traffic between them.
 
 Create an EC2 instance with the below settings:
+- AMI Amazon Linux
+- Leave default Instance Type
+- Instance details:
+	- Network : your VPC
+	- Subnet -> click create a new subnet (directed to a new page)
+		- Name : YourName-Pub-Sub
+		- Select your VPC
+		- Select the first availability zone of your region (i.e.1c)
+		- IPv4 CIDR 10.0.1.0/24
+	- Auto-assign public IP : leave default
+- Leave default storage
+- Tag : Server-YourName
+- Select the default existing Security Group
+- Review and Launch then Launch
+- Select the existing key pair EC2-KP-YourName, acknowledge and launch.
 
 new subnet in az-c and same sg than web01
 Associate new subnet to route table
@@ -209,7 +224,7 @@ Go to Load Balancers and create a target group:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDA5OTY5NCw3MzY1NjA0NzUsLTE5NT
+eyJoaXN0b3J5IjpbMjAwNTk0NzA3MSw3MzY1NjA0NzUsLTE5NT
 U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
 NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
 g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
