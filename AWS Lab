@@ -213,9 +213,11 @@ Go to Route Tables in VPCs, select the public route table where your web server 
 
 Login to both CLI web servers and run the below commands to install an http server :
 *yum install httpd -y
+service httpd start
 chkconfig httpd on
 cd /var/www/html
 echo "< html >< h1 >Hello World< /h1 ></html>" > index.html*
+
 
 
 
@@ -241,11 +243,11 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjcxNzQxNywtNjYwNzk4OTY4LDE3Mz
-c3MTg4MCw3MzY1NjA0NzUsLTE5NTU1MDE4NTksLTE3NDYxNzA4
-OSwtNzc1NzU2NDYwLDcwOTcwODg0NCwtMTQxNjIxOTE4LDE3ND
-gxMzYzNzIsMTU1ODEzNDIyNywxNDg1ODA0Mjg3LC03NTQ4NjM3
-ODAsLTE3MTI3NTE0NDksLTc4ODU0NTg5OSwxNjIxODA1NTQwLD
-IwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNjUw
-NzI2NTU1XX0=
+eyJoaXN0b3J5IjpbLTE4NDI1MjYzOTAsMTYwNjcxNzQxNywtNj
+YwNzk4OTY4LDE3Mzc3MTg4MCw3MzY1NjA0NzUsLTE5NTU1MDE4
+NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0NCwtMT
+QxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxNDg1ODA0
+Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0NTg5OS
+wxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4
+NDQxNjM3Ml19
 -->
