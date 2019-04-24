@@ -212,9 +212,12 @@ Create an EC2 instance with the below settings:
 Go to Route Tables in VPCs, select the public route table where your web server 01 and your bastion subnets are associated, and associate the web server 02 subnet to the table.
 
 Login to both CLI web servers and run the below commands to install an http server :
-yum install httpd -y
+*yum install httpd -y
 chkconfig httpd on
-echo 
+cd /var/www/html
+echo "< html >< h1 >Hello World< /h1 ></html>" > index.html*
+
+
 
 
 Go to Load Balancers and create an Application LB:
@@ -238,11 +241,11 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0MTgwNDk1LC02NjA3OTg5NjgsMTczNz
-cxODgwLDczNjU2MDQ3NSwtMTk1NTUwMTg1OSwtMTc0NjE3MDg5
-LC03NzU3NTY0NjAsNzA5NzA4ODQ0LC0xNDE2MjE5MTgsMTc0OD
-EzNjM3MiwxNTU4MTM0MjI3LDE0ODU4MDQyODcsLTc1NDg2Mzc4
-MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1NDAsMj
-AwMzg2NDEzNCwtMTE1MTExNDA1MCwxMTg0NDE2MzcyLDE2NTA3
-MjY1NTVdfQ==
+eyJoaXN0b3J5IjpbMTYwNjcxNzQxNywtNjYwNzk4OTY4LDE3Mz
+c3MTg4MCw3MzY1NjA0NzUsLTE5NTU1MDE4NTksLTE3NDYxNzA4
+OSwtNzc1NzU2NDYwLDcwOTcwODg0NCwtMTQxNjIxOTE4LDE3ND
+gxMzYzNzIsMTU1ODEzNDIyNywxNDg1ODA0Mjg3LC03NTQ4NjM3
+ODAsLTE3MTI3NTE0NDksLTc4ODU0NTg5OSwxNjIxODA1NTQwLD
+IwMDM4NjQxMzQsLTExNTExMTQwNTAsMTE4NDQxNjM3MiwxNjUw
+NzI2NTU1XX0=
 -->
