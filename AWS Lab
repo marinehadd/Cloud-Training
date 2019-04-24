@@ -245,7 +245,6 @@ Go to Route53 then hosted zones, click on ici-training.net and create a new reco
 
 Now browse to the new name you choose, you should get the same web page as before.
 
-# Lab 5 : Auto-Scale your instances
 
 
 
@@ -256,11 +255,11 @@ Now browse to the new name you choose, you should get the same web page as befor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTEzNTkwNTgsMTE1MjQwMzY2OSwtMT
-g0MjUyNjM5MCwxNjA2NzE3NDE3LC02NjA3OTg5NjgsMTczNzcx
-ODgwLDczNjU2MDQ3NSwtMTk1NTUwMTg1OSwtMTc0NjE3MDg5LC
-03NzU3NTY0NjAsNzA5NzA4ODQ0LC0xNDE2MjE5MTgsMTc0ODEz
-NjM3MiwxNTU4MTM0MjI3LDE0ODU4MDQyODcsLTc1NDg2Mzc4MC
-wtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2MjE4MDU1NDAsMjAw
-Mzg2NDEzNF19
+eyJoaXN0b3J5IjpbMTUyMzg2NDgxNiwtMTg5MTM1OTA1OCwxMT
+UyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5
+ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC
+0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYy
+MTkxOCwxNzQ4MTM2MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4Ny
+wtNzU0ODYzNzgwLC0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMTYy
+MTgwNTU0MF19
 -->
