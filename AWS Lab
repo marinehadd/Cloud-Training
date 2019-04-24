@@ -230,7 +230,9 @@ Go to Load Balancers and create an Application LB:
 - VPC -> select your VPC and tick all availability zones
 - Security Group : use the same as the web servers
 - Target Group -> select existing and your new created
-- Leave the rest as default a
+- Leave the rest as default and Create
+
+Go back to Target Groups, select your group and in 
 
 
 
@@ -240,11 +242,11 @@ Go to Load Balancers and create an Application LB:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzYzNDczMiw3MzY1NjA0NzUsLTE5NT
-U1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0
-NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNywxND
-g1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4ODU0
-NTg5OSwxNjIxODA1NTQwLDIwMDM4NjQxMzQsLTExNTExMTQwNT
-AsMTE4NDQxNjM3MiwxNjUwNzI2NTU1LC0yMDc2ODMxNDU5LC0y
-MDIwNzUyMTBdfQ==
+eyJoaXN0b3J5IjpbLTEwNjgyODE3OTEsNzM2NTYwNDc1LC0xOT
+U1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3MDg4
+NDQsLTE0MTYyMTkxOCwxNzQ4MTM2MzcyLDE1NTgxMzQyMjcsMT
+Q4NTgwNDI4NywtNzU0ODYzNzgwLC0xNzEyNzUxNDQ5LC03ODg1
+NDU4OTksMTYyMTgwNTU0MCwyMDAzODY0MTM0LC0xMTUxMTE0MD
+UwLDExODQ0MTYzNzIsMTY1MDcyNjU1NSwtMjA3NjgzMTQ1OSwt
+MjAyMDc1MjEwXX0=
 -->
