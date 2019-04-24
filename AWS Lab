@@ -232,7 +232,10 @@ Go to Load Balancers and create a Classic Load Balancer:
 - Leave the rest as default and create
 
 When you select it once ready, the web servers load balanced are displayed at the bottom. They should both come "in-service".
-On the description tab, copy the DNS name of the load balancer and browse to it. Keep refres
+On the description tab, copy the DNS name of the load balancer and browse to it. Keep refreshing with CTRL+F5 to notice that the content is coming alternatively from web server 1 and web server 2.
+
+Go to EC2 instances and stop the web server 1. Then go back to Load Balancers, the server should show as out of service. 
+Refresh the web page again several times, only 
 
 
 Create 
@@ -246,7 +249,7 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDM3MTkyMSwxMTUyNDAzNjY5LC0xOD
+eyJoaXN0b3J5IjpbMTQwMDkzMTE3NSwxMTUyNDAzNjY5LC0xOD
 QyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4
 ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODksLT
 c3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2
