@@ -211,17 +211,8 @@ Create an EC2 instance with the below settings:
 
 Go to Route Tables in VPCs, select the public route table where your web server 01 and your bastion subnets are associated, and associate the web server 02 subnet to the table.
 
-Login to the web server 02 CLI via the bastion and using its private IP, then install the packages and build the flask website as you did for web server 01.
-Run python *app.py* and make sure you can access thr web page by browsing to HTTP://WebServer02publicIP:5000.
-
-In EC2, go to Load Balancers and create a target group:
-- Name : WebServers-YourName
-- Target Type : Instance
-- Protocol : HTTP
-- Port : 5000
-- VPC : yourVPC
-- Target path : app.py
-- Create
+Login to both CLI web servers and run the below commands to install an http server :
+yum install
 
 Go to Load Balancers and create an Application LB:
 - Name : WebServer-LB-Name
@@ -232,9 +223,6 @@ Go to Load Balancers and create an Application LB:
 - Target Group -> select existing and your new created
 - Leave the rest as default and Create
 
-Go back to Target Groups, select your group and in Target, edit and register both web server subnets.
-
-Open two putty sessions, one for each web server CLI. On both, run the app.py application.
 
 Create 
 
@@ -247,11 +235,11 @@ Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NT
-YwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2
-MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2MzcyLDE1NT
-gxMzQyMjcsMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNzEyNzUx
-NDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMDAzODY0MTM0LC
-0xMTUxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcyNjU1NSwtMjA3
-NjgzMTQ1OV19
+eyJoaXN0b3J5IjpbODgzNzMwNjksLTY2MDc5ODk2OCwxNzM3Nz
+E4ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC0xNzQ2MTcwODks
+LTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MT
+M2MzcyLDE1NTgxMzQyMjcsMTQ4NTgwNDI4NywtNzU0ODYzNzgw
+LC0xNzEyNzUxNDQ5LC03ODg1NDU4OTksMTYyMTgwNTU0MCwyMD
+AzODY0MTM0LC0xMTUxMTE0MDUwLDExODQ0MTYzNzIsMTY1MDcy
+NjU1NV19
 -->
