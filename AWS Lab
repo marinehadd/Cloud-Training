@@ -291,7 +291,8 @@ Go back to your instances, terminate one of the two web servers from the auto-sc
 
 Wait for a few minutes and refresh the page, a new auto-scaling instance should appear.
 
-Once it is up, re-test your load balancer URL access, nothing shou
+Once it is up, re-test your load balancer URL access.
+
 
 
 
@@ -308,7 +309,7 @@ Once it is up, re-test your load balancer URL access, nothing shou
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTAxOTM5NSwtMTYyMTExNjQ5OSwtMT
+eyJoaXN0b3J5IjpbMTM0ODQzMTg2OSwtMTYyMTExNjQ5OSwtMT
 g5MTM1OTA1OCwxMTUyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3
 MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC
 0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3
