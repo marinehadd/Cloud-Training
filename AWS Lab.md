@@ -260,6 +260,7 @@ Then go to Auto-scaling group and create a Launch Configuration:
 - Name - Launch-yourname
 - IAM role : choose the S3 IAM role you created previsouly
 - Click on Advanced details and paste the below text into the box:
+
 #!/bin/bash
 
 yum update -y
