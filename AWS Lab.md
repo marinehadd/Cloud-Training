@@ -54,7 +54,7 @@ Save
 A bastion is a jump box that will allow you to connect to any private instance of your VPC from the Internet. It will act as an intermediate between the public and the private environments.
 
 Go to EC2 Dashboard, launch an instance:
-- AMI Amazon Linux
+- AMI Amazon Linux 2
 - Leave default Instance Type
 - Instance details:
 	- Network : your VPC
@@ -172,6 +172,7 @@ Retype the same command to check if you now have access to S3. The command shoul
 
 Create a txt file:
 *echo "This is my new file." > yourname.txt
+
 s3 aws cp yourname.txt s3://yourbucketname*
 
 Go back to the console and check that the new file has been uploaded. Select it, and click on the URL displayed on the right panel to check the content of the file.
@@ -213,9 +214,13 @@ Go to Route Tables in VPCs, select the public route table where your web server 
 
 Login to both CLI web servers and run the below commands to install an http server :
 *yum install httpd -y
+
 service httpd start
+
 chkconfig httpd on
+
 cd /var/www/html
+
 echo "< html >< h1 >Hello World X< /h1 ></html>" > index.html* ** 
 **(X being 1 for webserver 1 and 2 for webserver2)****
 
