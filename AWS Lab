@@ -280,7 +280,10 @@ echo "< html >< h1>Hello world, this is my new auto-scaling group!< /h1>< /html 
 	- Review and Create
 
 Go to EC2 instances, you should have 2 new instances created.
-SSH to
+SSH to your bastion and login to both new instances private IPs to make sure they are reachable.
+Then, in your browser, for each new instance (new web server) type the public IP to make sure you get the new web content.
+
+Go to Loa
 
 
 
@@ -297,7 +300,7 @@ SSH to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjg1MjM4MiwtMTYyMTExNjQ5OSwtMT
+eyJoaXN0b3J5IjpbMTk3NzM0MDkzNiwtMTYyMTExNjQ5OSwtMT
 g5MTM1OTA1OCwxMTUyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3
 MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC
 0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3
