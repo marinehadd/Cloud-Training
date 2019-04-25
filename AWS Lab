@@ -253,7 +253,8 @@ Now browse to the new name you choose, you should get the same web page as befor
 
 # Lab 5 : Create an auto-scaling group
 
-In EC2, go to Auto-scaling group and create a Launch Configuration:
+In EC2, go to your instances and stop your two web servers.
+Then go to Auto-scaling group and create a Launch Configuration:
 - AMI Amazon Linux 2
 - Name - Launch-yourname
 - IAM role : choose the S3 IAM role you created previsouly
@@ -283,7 +284,7 @@ Go to EC2 instances, you should have 2 new instances created.
 SSH to your bastion and login to both new instances private IPs to make sure they are reachable.
 Then, in your browser, for each new instance (new web server) type the public IP to make sure you get the new web content.
 
-Go to Loa
+In your browser, type your load balancer URL (either the one displayed in the load balancer configuration, or the DNS CNAME name you created in Route53). You should get the new web content displayed.
 
 
 
@@ -300,7 +301,7 @@ Go to Loa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzM0MDkzNiwtMTYyMTExNjQ5OSwtMT
+eyJoaXN0b3J5IjpbMTc5ODMzNDY4NCwtMTYyMTExNjQ5OSwtMT
 g5MTM1OTA1OCwxMTUyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3
 MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC
 0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3
