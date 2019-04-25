@@ -287,7 +287,7 @@ Then, in your browser, for each new instance (new web server) type the public IP
 
 In your browser, type your load balancer URL (either the one displayed in the load balancer configuration, or the DNS CNAME name you created in Route53). You should get the new web content displayed.
 
-go back to your instances, terminate 
+go back to your instances, terminate one of the two web servers from the auto-scaling group.
 
 
 
@@ -304,11 +304,11 @@ go back to your instances, terminate
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2ODg2NzA2LC0xNjIxMTE2NDk5LC0xOD
-kxMzU5MDU4LDExNTI0MDM2NjksLTE4NDI1MjYzOTAsMTYwNjcx
-NzQxNywtNjYwNzk4OTY4LDE3Mzc3MTg4MCw3MzY1NjA0NzUsLT
-E5NTU1MDE4NTksLTE3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcw
-ODg0NCwtMTQxNjIxOTE4LDE3NDgxMzYzNzIsMTU1ODEzNDIyNy
-wxNDg1ODA0Mjg3LC03NTQ4NjM3ODAsLTE3MTI3NTE0NDksLTc4
-ODU0NTg5OV19
+eyJoaXN0b3J5IjpbMTEwNzA5Mjg1MywtMTYyMTExNjQ5OSwtMT
+g5MTM1OTA1OCwxMTUyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3
+MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC
+0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3
+MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2MzcyLDE1NTgxMzQyMj
+csMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNzEyNzUxNDQ5LC03
+ODg1NDU4OTldfQ==
 -->
