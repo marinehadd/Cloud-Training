@@ -256,8 +256,17 @@ Now browse to the new name you choose, you should get the same web page as befor
 In EC2, go to Auto-scaling group and create a Launch Configuration:
 - Name - AS-yourname
 - IAM role : choose the S3 IAM role you created previsouly
-- Click on Advanced details and paste the below text into
-- 
+- Click on Advanced details and paste the below text into the box:
+#!/bin/bash
+yum update -y
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
+
+
+ 
 
 
 
@@ -266,7 +275,7 @@ In EC2, go to Auto-scaling group and create a Launch Configuration:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODQwNjUzNCwtMTg5MTM1OTA1OCwxMT
+eyJoaXN0b3J5IjpbLTY3MjQ4Nzc5OCwtMTg5MTM1OTA1OCwxMT
 UyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5
 ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC
 0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYy
