@@ -264,7 +264,7 @@ yum install httpd -y
 service httpd start
 chkconfig httpd on
 cd /var/www/html
-echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
+echo "< html >< h1>Hello world, this is my new auto-scaling group!< /h1>< /html >" > index.html
 - select "Assign a public IP address to every instance"
 - Select your web server security group (or default)
 - Choose your existing key pair
@@ -280,6 +280,7 @@ echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
 	- Review and Create
 
 Go to EC2 instances, you should have 2 new instances created.
+SSH to
 
 
 
@@ -296,11 +297,11 @@ Go to EC2 instances, you should have 2 new instances created.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjExMTY0OTksLTE4OTEzNTkwNTgsMT
-E1MjQwMzY2OSwtMTg0MjUyNjM5MCwxNjA2NzE3NDE3LC02NjA3
-OTg5NjgsMTczNzcxODgwLDczNjU2MDQ3NSwtMTk1NTUwMTg1OS
-wtMTc0NjE3MDg5LC03NzU3NTY0NjAsNzA5NzA4ODQ0LC0xNDE2
-MjE5MTgsMTc0ODEzNjM3MiwxNTU4MTM0MjI3LDE0ODU4MDQyOD
-csLTc1NDg2Mzc4MCwtMTcxMjc1MTQ0OSwtNzg4NTQ1ODk5LDE2
-MjE4MDU1NDBdfQ==
+eyJoaXN0b3J5IjpbMjA5Mjg1MjM4MiwtMTYyMTExNjQ5OSwtMT
+g5MTM1OTA1OCwxMTUyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3
+MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC
+0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3
+MDg4NDQsLTE0MTYyMTkxOCwxNzQ4MTM2MzcyLDE1NTgxMzQyMj
+csMTQ4NTgwNDI4NywtNzU0ODYzNzgwLC0xNzEyNzUxNDQ5LC03
+ODg1NDU4OTldfQ==
 -->
