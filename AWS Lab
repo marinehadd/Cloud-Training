@@ -266,6 +266,8 @@ chkconfig httpd on
 cd /var/www/html
 echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
 - select "Assign a public IP address to every instance"
+- Select your web server security group (or default)
+- Choose your existing key pair
 
 
 
@@ -280,7 +282,7 @@ echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MTg4ODc0LC0xODkxMzU5MDU4LDExNT
+eyJoaXN0b3J5IjpbMTM5NzM2MDgyLC0xODkxMzU5MDU4LDExNT
 I0MDM2NjksLTE4NDI1MjYzOTAsMTYwNjcxNzQxNywtNjYwNzk4
 OTY4LDE3Mzc3MTg4MCw3MzY1NjA0NzUsLTE5NTU1MDE4NTksLT
 E3NDYxNzA4OSwtNzc1NzU2NDYwLDcwOTcwODg0NCwtMTQxNjIx
