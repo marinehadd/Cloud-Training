@@ -264,6 +264,8 @@ service httpd start
 chkconfig httpd on
 cd /var/www/html
 echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
+- select "Assign a public IP address to every instance"
+
 
 
  
@@ -275,7 +277,7 @@ echo "< html >< h1>Hello World !< /h1>< /html >" > index.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjQ4Nzc5OCwtMTg5MTM1OTA1OCwxMT
+eyJoaXN0b3J5IjpbMTUwMjk2MDQwOCwtMTg5MTM1OTA1OCwxMT
 UyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3MTc0MTcsLTY2MDc5
 ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC0xOTU1NTAxODU5LC
 0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3MDg4NDQsLTE0MTYy
