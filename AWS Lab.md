@@ -261,12 +261,19 @@ Then go to Auto-scaling group and create a Launch Configuration:
 - IAM role : choose the S3 IAM role you created previsouly
 - Click on Advanced details and paste the below text into the box:
 #!/bin/bash
+
 yum update -y
+
 yum install httpd -y
+
 service httpd start
+
 chkconfig httpd on
+
 cd /var/www/html
+
 echo "< html >< h1>Hello world, this is my new auto-scaling group!< /h1>< /html >" > index.html
+
 - select "Assign a public IP address to every instance"
 - Select your web server security group (or default)
 - Choose your existing key pair
