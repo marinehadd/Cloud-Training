@@ -287,7 +287,11 @@ Then, in your browser, for each new instance (new web server) type the public IP
 
 In your browser, type your load balancer URL (either the one displayed in the load balancer configuration, or the DNS CNAME name you created in Route53). You should get the new web content displayed.
 
-go back to your instances, terminate one of the two web servers from the auto-scaling group.
+Go back to your instances, terminate one of the two web servers from the auto-scaling group.
+
+Wait for a few minutes and refresh the page, a new auto-scaling instance should appear.
+
+Once it is up, re-test your load balancer URL access, nothing shou
 
 
 
@@ -304,7 +308,7 @@ go back to your instances, terminate one of the two web servers from the auto-sc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzA5Mjg1MywtMTYyMTExNjQ5OSwtMT
+eyJoaXN0b3J5IjpbLTQ3MTAxOTM5NSwtMTYyMTExNjQ5OSwtMT
 g5MTM1OTA1OCwxMTUyNDAzNjY5LC0xODQyNTI2MzkwLDE2MDY3
 MTc0MTcsLTY2MDc5ODk2OCwxNzM3NzE4ODAsNzM2NTYwNDc1LC
 0xOTU1NTAxODU5LC0xNzQ2MTcwODksLTc3NTc1NjQ2MCw3MDk3
