@@ -2,7 +2,7 @@
 
 # Lab 1 : Create an environment
 
- Go to [https://go.accenture.com/aws_login] and choose the region
+ Go to your AWS account and choose the region.
 
 ## Setup a VPC
 
